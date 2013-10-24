@@ -1,0 +1,18 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, li, th, td,
+{
+	color:#333;
+	font-family: "faricy-new-web",sans-serif;
+	font-size:14px;
+	font-style:normal;
+	font-weight:400;
+	line-height:20px;
+}
+
+strong {font-style:normal;font-weight:700;}
+em {font-style:italic;font-weight:400;}
+em strong, strong em {font-style:italic;font-weight:700;}
+
+a, a:visited, a:hover {color:#009ddc;}
+a:hover {color:#333;}
+
+.small {font-size:10px;line-height:16px;}

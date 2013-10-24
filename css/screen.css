@@ -67,7 +67,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 9, ../sass/screen.scss */
+/* line 2, ../sass/_core.scss */
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, li, th, td {
   color: #333;
   font-family: "faricy-new-web",sans-serif;
@@ -77,41 +77,41 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, li, th, td {
   line-height: 20px;
 }
 
-/* line 18, ../sass/screen.scss */
+/* line 11, ../sass/_core.scss */
 strong {
   font-style: normal;
   font-weight: 700;
 }
 
-/* line 19, ../sass/screen.scss */
+/* line 12, ../sass/_core.scss */
 em {
   font-style: italic;
   font-weight: 400;
 }
 
-/* line 20, ../sass/screen.scss */
+/* line 13, ../sass/_core.scss */
 em strong, strong em {
   font-style: italic;
   font-weight: 700;
 }
 
-/* line 22, ../sass/screen.scss */
+/* line 15, ../sass/_core.scss */
 a, a:visited, a:hover {
   color: #009ddc;
 }
 
-/* line 23, ../sass/screen.scss */
+/* line 16, ../sass/_core.scss */
 a:hover {
   color: #333;
 }
 
-/* line 25, ../sass/screen.scss */
+/* line 18, ../sass/_core.scss */
 .small {
   font-size: 10px;
   line-height: 16px;
 }
 
-/* line 28, ../sass/screen.scss */
+/* line 10, ../sass/screen.scss */
 .logo {
   left: 0;
   position: fixed;
@@ -119,21 +119,22 @@ a:hover {
   top: -150px;
   width: 100%;
 }
-/* line 35, ../sass/screen.scss */
+/* line 17, ../sass/screen.scss */
 .logo img {
   height: 112px;
   width: 600px;
 }
 
-/* line 38, ../sass/screen.scss */
+/* line 20, ../sass/screen.scss */
 .coming-soon {
+  display: none;
   left: 0;
   position: fixed;
   text-align: center;
   top: 140px;
   width: 100%;
 }
-/* line 46, ../sass/screen.scss */
+/* line 29, ../sass/screen.scss */
 .coming-soon em {
   background: #009ddc;
   border-radius: 100px;
@@ -146,7 +147,7 @@ a:hover {
   width: 350px;
 }
 
-/* line 59, ../sass/screen.scss */
+/* line 42, ../sass/screen.scss */
 .footer {
   background: #ddd;
   border-top: 4px solid #ccc;
@@ -157,7 +158,7 @@ a:hover {
   z-index: 20;
 }
 
-/* line 69, ../sass/screen.scss */
+/* line 52, ../sass/screen.scss */
 .address-wrapper {
   border-right: 2px solid #ccc;
   box-sizing: border-box;
@@ -165,26 +166,26 @@ a:hover {
   width: 50%;
 }
 
-/* line 76, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 .address {
   padding: 10px;
 }
 
-/* line 80, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 .twitter-link-wrapper {
   float: left;
   margin: 38px 0 0;
   text-align: center;
   width: 49%;
 }
-/* line 87, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 .twitter-link-wrapper a, .twitter-link-wrapper a:visited, .twitter-link-wrapper a:hover {
   font-size: 30px;
   line-height: 36px;
   text-decoration: none;
 }
 
-/* line 94, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 .twitter-timeline-wrapper {
   bottom: -500px;
   position: fixed;
