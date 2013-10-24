@@ -1,0 +1,100 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, li, th, td,
+{
+	color:#333;
+	font-family: "faricy-new-web",sans-serif;
+	font-size:14px;
+	font-style:normal;
+	font-weight:400;
+	line-height:20px;
+}
+
+strong {font-style:normal;font-weight:700;}
+em {font-style:italic;font-weight:400;}
+em strong, strong em {font-style:italic;font-weight:700;}
+
+a, a:visited, a:hover {color:#009ddc;}
+a:hover {color:#333;}
+
+.small {font-size:10px;line-height:16px;}
+
+.logo
+{
+	left:0;
+	position:fixed;
+	text-align:center;
+	top:-150px;
+	width:100%;
+
+	img {height:112px;width:600px;}
+}
+.coming-soon
+{
+	left: 0;
+	position: fixed;
+	text-align: center;
+	top: 140px;
+	width: 100%;
+
+	em
+	{
+		background:#009ddc;
+		border-radius:100px;
+		color:#fff;
+		display:block;
+		font-size:16px;
+		line-height:22px;
+		margin:0 auto;
+		padding:10px 20px;
+		width:350px;
+	}
+}
+.footer
+{
+	background:#ddd;
+	border-top:4px solid #ccc;
+	bottom:-150px;
+	left:0;
+	position:fixed;
+	width:100%;
+	z-index:20;
+}
+.address-wrapper
+{
+	border-right:2px solid #ccc;
+	box-sizing:border-box;
+	float:left;
+	width:50%;
+}
+.address
+{
+	padding:10px;
+}
+.twitter-link-wrapper
+{
+	float:left;
+	margin:38px 0 0;
+	text-align:center;
+	width:49%;
+
+	a, a:visited, a:hover
+	{
+		font-size:30px;
+		line-height:36px;
+		text-decoration:none;
+	}
+}
+.twitter-timeline-wrapper
+{
+	bottom:-500px;
+	position:fixed;
+	right:10px;
+	width:48%;
+	z-index:10;
+}
