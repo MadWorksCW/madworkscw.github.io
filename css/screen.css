@@ -30,7 +30,7 @@ html {
 }
 
 body {
-  padding: 150px 20px 0px 20px;
+  padding: 150px 20px 150px 20px;
 }
 
 h1.question {
@@ -61,6 +61,7 @@ li {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+  margin-top: 10px;
 }
 
 /* line 28, ../../.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
