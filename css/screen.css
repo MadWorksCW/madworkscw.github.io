@@ -29,9 +29,32 @@ html {
   line-height: 1;
 }
 
+body {
+  padding: 150px 20px 0px 20px;
+}
+
+h1.question {
+  background-color: #901;
+  box-shadow: 4px 4px 4px #888;
+  color: #fff;
+  display: inline;
+  font-size: 20px;
+  padding: 2px;
+}
+
+p {
+  color: #414142;
+  margin: 10px;
+}
+
 /* line 24, ../../.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
-  list-style: none;
+  /*list-style: none;*/
+  padding: 10px 0px 10px 20px;
+}
+
+li {
+  padding-bottom: 5px;
 }
 
 /* line 26, ../../.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
