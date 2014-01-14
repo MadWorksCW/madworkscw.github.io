@@ -7,7 +7,7 @@ $(function () {
 				$(this).css('display', 'block');
 			});
 			setTimeout(function () {
-				$('.twitter-timeline-wrapper').animate({ bottom: 150 }, 1000, 'easeOutQuint');
+				$('.twitter-timeline-wrapper, .calendar-wrapper').animate({ bottom: 150 }, 1000, 'easeOutQuint');
 			}, 500);
 		}, 300);
 	});

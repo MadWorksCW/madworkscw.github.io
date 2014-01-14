@@ -198,3 +198,12 @@ a:hover {
   width: 48%;
   z-index: 10;
 }
+
+/* line 85, ../sass/screen.scss */
+.calendar-wrapper {
+  position: fixed;
+  bottom: -500px;
+  left: 10px;
+  width: 48%;
+  z-index: 10;
+}
