@@ -116,7 +116,16 @@ a:hover {
   margin-right: 6px;
 }
 
-/* line 10, ../sass/screen.scss */
+/* line 11, ../sass/screen.scss */
+.content {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1;
+  position: relative;
+}
+
+/* line 19, ../sass/screen.scss */
 .logo {
   left: 0;
   position: fixed;
@@ -124,13 +133,13 @@ a:hover {
   top: -150px;
   width: 100%;
 }
-/* line 17, ../sass/screen.scss */
+/* line 26, ../sass/screen.scss */
 .logo img {
   height: 112px;
   width: 600px;
 }
 
-/* line 20, ../sass/screen.scss */
+/* line 29, ../sass/screen.scss */
 .coming-soon {
   display: none;
   left: 0;
@@ -139,7 +148,7 @@ a:hover {
   top: 140px;
   width: 100%;
 }
-/* line 29, ../sass/screen.scss */
+/* line 38, ../sass/screen.scss */
 .coming-soon em {
   background: #009ddc;
   border-radius: 100px;
@@ -152,7 +161,7 @@ a:hover {
   width: 350px;
 }
 
-/* line 42, ../sass/screen.scss */
+/* line 51, ../sass/screen.scss */
 .footer {
   background: #ddd;
   border-top: 4px solid #ccc;
@@ -163,7 +172,7 @@ a:hover {
   z-index: 20;
 }
 
-/* line 52, ../sass/screen.scss */
+/* line 61, ../sass/screen.scss */
 .address-wrapper {
   border-right: 2px solid #ccc;
   box-sizing: border-box;
@@ -171,26 +180,26 @@ a:hover {
   width: 50%;
 }
 
-/* line 59, ../sass/screen.scss */
+/* line 68, ../sass/screen.scss */
 .address {
   padding: 10px;
 }
 
-/* line 63, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 .twitter-link-wrapper {
   float: left;
   margin: 38px 0 0;
   text-align: center;
   width: 49%;
 }
-/* line 70, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
 .twitter-link-wrapper a, .twitter-link-wrapper a:visited, .twitter-link-wrapper a:hover {
   font-size: 30px;
   line-height: 36px;
   text-decoration: none;
 }
 
-/* line 77, ../sass/screen.scss */
+/* line 86, ../sass/screen.scss */
 .twitter-timeline-wrapper {
   bottom: -500px;
   position: fixed;
@@ -199,7 +208,7 @@ a:hover {
   z-index: 10;
 }
 
-/* line 85, ../sass/screen.scss */
+/* line 94, ../sass/screen.scss */
 .calendar-wrapper {
   position: fixed;
   bottom: -500px;
