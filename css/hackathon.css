@@ -215,6 +215,7 @@ blockquote {
     font-size: 22px;
     font-weight: bold;
     white-space: nowrap;
+    min-width: 150px;
 }
 
 .centered {
