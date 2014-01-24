@@ -207,6 +207,13 @@ blockquote {
     margin-bottom: 40px;
 }
 
+.sponsors .sponsor {
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
 .centered {
     text-align: center;
     margin: 0 auto;
@@ -237,7 +244,7 @@ blockquote {
 }
 
 .yellow, .red {
-    height: 270px;
+    height: 240px;
 
 }
 
