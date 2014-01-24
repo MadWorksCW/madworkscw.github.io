@@ -53,6 +53,15 @@ h3 {
     color: #fff;
 }
 
+.sidebar .conduct {
+    position: absolute;
+    bottom: 4px;
+    left: 4px;
+    text-align: left;
+    font-size: 13px;
+    color: white;
+}
+
 .header {
     margin: 33% 2em 0;
     text-align: right;
@@ -74,12 +83,6 @@ h3 {
     font-weight: 300;
     color: #FFF;
     margin-top: 20px;
-}
-
-@media screen and (max-width: 480px) {
-    .brand-title {
-        text-align: center;
-    }
 }
 
 .nav-list {
@@ -244,7 +247,7 @@ blockquote {
 }
 
 .yellow, .red {
-    height: 240px;
+    height: 250px;
 
 }
 
@@ -300,10 +303,20 @@ blockquote {
     #layout {
         padding: 0;
     }
+    .conduct {
+        position: static;
+        margin: 12px;
+    }
+    .brand-title {
+        text-align: center;
+    }
 }
 
 @media (max-width: 480px) {
     .content {
         padding: 2em 1em 0;
+    }
+    .yellow, .red {
+        height: auto;
     }
 }
