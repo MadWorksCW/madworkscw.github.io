@@ -123,9 +123,10 @@ a:hover {
   overflow: hidden;
   *zoom: 1;
   position: relative;
+  padding-top: 150px;
 }
 
-/* line 19, ../sass/screen.scss */
+/* line 20, ../sass/screen.scss */
 .logo {
   left: 0;
   position: fixed;
@@ -133,13 +134,13 @@ a:hover {
   top: -150px;
   width: 100%;
 }
-/* line 26, ../sass/screen.scss */
+/* line 27, ../sass/screen.scss */
 .logo img {
   height: 112px;
   width: 600px;
 }
 
-/* line 29, ../sass/screen.scss */
+/* line 30, ../sass/screen.scss */
 .coming-soon {
   display: none;
   left: 0;
@@ -148,7 +149,7 @@ a:hover {
   top: 140px;
   width: 100%;
 }
-/* line 38, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 .coming-soon em {
   background: #009ddc;
   border-radius: 100px;
@@ -161,7 +162,7 @@ a:hover {
   width: 350px;
 }
 
-/* line 51, ../sass/screen.scss */
+/* line 52, ../sass/screen.scss */
 .footer {
   background: #ddd;
   border-top: 4px solid #ccc;
@@ -172,7 +173,7 @@ a:hover {
   z-index: 20;
 }
 
-/* line 61, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 .address-wrapper {
   border-right: 2px solid #ccc;
   box-sizing: border-box;
@@ -180,26 +181,26 @@ a:hover {
   width: 50%;
 }
 
-/* line 68, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 .address {
   padding: 10px;
 }
 
-/* line 72, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 .twitter-link-wrapper {
   float: left;
   margin: 38px 0 0;
   text-align: center;
   width: 49%;
 }
-/* line 79, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 .twitter-link-wrapper a, .twitter-link-wrapper a:visited, .twitter-link-wrapper a:hover {
   font-size: 30px;
   line-height: 36px;
   text-decoration: none;
 }
 
-/* line 86, ../sass/screen.scss */
+/* line 87, ../sass/screen.scss */
 .twitter-timeline-wrapper {
   bottom: -500px;
   position: fixed;
@@ -208,11 +209,23 @@ a:hover {
   z-index: 10;
 }
 
-/* line 94, ../sass/screen.scss */
+/* line 95, ../sass/screen.scss */
 .calendar-wrapper {
   position: fixed;
   bottom: -500px;
   left: 10px;
   width: 48%;
   z-index: 10;
+}
+
+/* line 103, ../sass/screen.scss */
+.hackathon {
+  margin-top: 32px;
+  text-align: center;
+}
+/* line 106, ../sass/screen.scss */
+.hackathon img {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
 }
