@@ -200,6 +200,10 @@ blockquote {
     margin: 1em 10px;
 }
 
+.unconference {
+    font-size: 13px;
+}
+
 .sponsors {
     /*background-color: #F8F8F8;*/
     background-color: #FFF;
