@@ -221,6 +221,9 @@ blockquote {
     white-space: nowrap;
     min-width: 150px;
 }
+.sponsors .sponsor IMG {
+    max-height: 60px;
+}
 .donate {
   font-size: 10px;
   margin-top: 32px;
