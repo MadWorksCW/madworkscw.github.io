@@ -157,6 +157,12 @@ h3 {
     color: #444;
     line-height: 1.8em;
 }
+.schedule .content {
+    font-size: 14px;
+    white-space: nowrap;
+    padding: 12px;
+}
+
 .post-meta {
     color: #999;
     font-size: 90%;
@@ -223,6 +229,10 @@ blockquote {
 }
 .sponsors .sponsor IMG {
     max-height: 60px;
+}
+
+.sponsors .sponsor A {
+    text-decoration: none;
 }
 .donate {
   font-size: 10px;
