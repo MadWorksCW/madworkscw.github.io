@@ -276,7 +276,11 @@ a:hover {
 }
 /* line 107, ../sass/screen.scss */
 .hackathon img {
-  width: 100px;
+  width: 400px;
   display: block;
   margin: 0 auto;
+}
+/* line 112, ../sass/screen.scss */
+.hackathon a {
+  font-size: 20px;
 }
