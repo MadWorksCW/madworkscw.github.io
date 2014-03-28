@@ -2,10 +2,10 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, li, th, td,
 {
 	color:#333;
 	font-family: "faricy-new-web",sans-serif;
-	font-size:14px;
+	font-size:16px;
 	font-style:normal;
 	font-weight:400;
-	line-height:20px;
+	line-height:1.4;
 }
 
 strong {font-style:normal;font-weight:700;}
@@ -20,5 +20,22 @@ a:hover {color:#333;}
 .address { 
   a {
     margin-right: 6px;
+  }
+}
+
+h1 {
+  color: $madworks-blue;
+  font-size: 36px
+}
+
+p {
+  margin: 8px 0 8px 0;
+}
+
+.conduct {
+  max-width: 800px;
+  margin: 0 auto;
+  ul li {
+    list-style: disc inside;
   }
 }

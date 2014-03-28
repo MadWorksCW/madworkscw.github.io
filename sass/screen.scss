@@ -14,16 +14,17 @@ $madworks-blue: #009ddc;
 	margin: 0 auto;
 	@include clearfix;
 	position: relative;
-	padding-top: 150px;
+	padding-bottom: 150px;
 }
 
 .logo
 {
 	left:0;
-	position:fixed;
+	position: relative;
 	text-align:center;
 	top:-150px;
 	width:100%;
+	margin-bottom: 32px;
 
 	img {height:112px;width:600px;}
 }

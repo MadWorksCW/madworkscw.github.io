@@ -71,10 +71,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, li, th, td {
   color: #333;
   font-family: "faricy-new-web",sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 1.4;
 }
 
 /* line 11, ../sass/_core.scss */
@@ -116,49 +116,65 @@ a:hover {
   margin-right: 6px;
 }
 
+/* line 26, ../sass/_core.scss */
+h1 {
+  color: #009ddc;
+  font-size: 36px;
+}
+
+/* line 31, ../sass/_core.scss */
+p {
+  margin: 8px 0 8px 0;
+}
+
+/* line 35, ../sass/_core.scss */
+.conduct {
+  max-width: 800px;
+  margin: 0 auto;
+}
+/* line 38, ../sass/_core.scss */
+.conduct ul li {
+  list-style: disc inside;
+}
+
 /* line 2, ../sass/_members.sass */
 .members p, .members dd {
   font-size: 16px;
   line-height: 1.4;
 }
 /* line 5, ../sass/_members.sass */
-.members h1 {
-  color: #009ddc;
-  font-size: 36px;
-}
-/* line 8, ../sass/_members.sass */
 .members .member {
   padding: 16px;
   margin: 16px;
 }
-/* line 11, ../sass/_members.sass */
+/* line 8, ../sass/_members.sass */
 .members .member h2 {
   font-size: 26px;
   border-bottom: 1px solid #cccccc;
   margin-bottom: 16px;
   line-height: 50px;
 }
-/* line 16, ../sass/_members.sass */
+/* line 13, ../sass/_members.sass */
 .members .member h2 a {
   color: black;
   text-decoration: none;
 }
-/* line 19, ../sass/_members.sass */
+/* line 16, ../sass/_members.sass */
 .members .member h2 a:hover {
   color: #009ddc;
 }
-/* line 21, ../sass/_members.sass */
+/* line 18, ../sass/_members.sass */
 .members .member img {
   max-height: 100px;
   max-width: 200px;
   float: right;
   margin: 0 0 16px 16px;
 }
-/* line 26, ../sass/_members.sass */
+/* line 23, ../sass/_members.sass */
 .members .member dl {
   margin: 8px;
 }
-/* line 28, ../sass/_members.sass */
+/* line 25, ../sass/_members.sass */
 .members .member dl dt {
   display: inline-block;
   margin-top: 8px;
@@ -174,24 +190,25 @@ a:hover {
   overflow: hidden;
   *zoom: 1;
   position: relative;
-  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 /* line 21, ../sass/screen.scss */
 .logo {
   left: 0;
-  position: fixed;
+  position: relative;
   text-align: center;
   top: -150px;
   width: 100%;
+  margin-bottom: 32px;
 }
-/* line 28, ../sass/screen.scss */
+/* line 29, ../sass/screen.scss */
 .logo img {
   height: 112px;
   width: 600px;
 }
 
-/* line 31, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 .coming-soon {
   display: none;
   left: 0;
@@ -200,7 +217,7 @@ a:hover {
   top: 140px;
   width: 100%;
 }
-/* line 40, ../sass/screen.scss */
+/* line 41, ../sass/screen.scss */
 .coming-soon em {
   background: #009ddc;
   border-radius: 100px;
@@ -213,7 +230,7 @@ a:hover {
   width: 350px;
 }
 
-/* line 53, ../sass/screen.scss */
+/* line 54, ../sass/screen.scss */
 .footer {
   background: #ddd;
   border-top: 4px solid #cccccc;
@@ -224,7 +241,7 @@ a:hover {
   z-index: 20;
 }
 
-/* line 63, ../sass/screen.scss */
+/* line 64, ../sass/screen.scss */
 .address-wrapper {
   border-right: 2px solid #cccccc;
   box-sizing: border-box;
@@ -232,26 +249,26 @@ a:hover {
   width: 50%;
 }
 
-/* line 70, ../sass/screen.scss */
+/* line 71, ../sass/screen.scss */
 .address {
   padding: 10px;
 }
 
-/* line 74, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
 .twitter-link-wrapper {
   float: left;
   margin: 38px 0 0;
   text-align: center;
   width: 49%;
 }
-/* line 81, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 .twitter-link-wrapper a, .twitter-link-wrapper a:visited, .twitter-link-wrapper a:hover {
   font-size: 30px;
   line-height: 36px;
   text-decoration: none;
 }
 
-/* line 88, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
 .twitter-timeline-wrapper {
   bottom: -500px;
   position: fixed;
@@ -260,7 +277,7 @@ a:hover {
   z-index: 10;
 }
 
-/* line 96, ../sass/screen.scss */
+/* line 97, ../sass/screen.scss */
 .calendar-wrapper {
   position: fixed;
   bottom: -500px;
@@ -269,18 +286,18 @@ a:hover {
   z-index: 10;
 }
 
-/* line 104, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
 .hackathon {
   margin-top: 32px;
   text-align: center;
 }
-/* line 107, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 .hackathon img {
   width: 400px;
   display: block;
   margin: 0 auto;
 }
-/* line 112, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 .hackathon a {
   font-size: 20px;
 }
