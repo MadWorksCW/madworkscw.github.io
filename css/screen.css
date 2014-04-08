@@ -241,6 +241,12 @@ p {
   z-index: 20;
 }
 
+.footer.static {
+  position: static;
+}
+.footer.static .twitter-link-wrapper {
+  margin-top: 8px;
+}
 /* line 64, ../sass/screen.scss */
 .address-wrapper {
   border-right: 2px solid #cccccc;
