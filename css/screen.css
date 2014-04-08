@@ -67,7 +67,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 2, ../sass/_core.scss */
+/* line 3, ../sass/_core.scss */
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, li, th, td {
   color: #333;
   font-family: "faricy-new-web",sans-serif;
@@ -77,62 +77,62 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, li, th, td {
   line-height: 1.4;
 }
 
-/* line 11, ../sass/_core.scss */
+/* line 12, ../sass/_core.scss */
 strong {
   font-style: normal;
   font-weight: 700;
 }
 
-/* line 12, ../sass/_core.scss */
+/* line 13, ../sass/_core.scss */
 em {
   font-style: italic;
   font-weight: 400;
 }
 
-/* line 13, ../sass/_core.scss */
+/* line 14, ../sass/_core.scss */
 em strong, strong em {
   font-style: italic;
   font-weight: 700;
 }
 
-/* line 15, ../sass/_core.scss */
+/* line 16, ../sass/_core.scss */
 a, a:visited, a:hover {
   color: #009ddc;
 }
 
-/* line 16, ../sass/_core.scss */
+/* line 17, ../sass/_core.scss */
 a:hover {
   color: #333;
 }
 
-/* line 18, ../sass/_core.scss */
+/* line 19, ../sass/_core.scss */
 .small {
   font-size: 10px;
   line-height: 16px;
 }
 
-/* line 21, ../sass/_core.scss */
+/* line 22, ../sass/_core.scss */
 .address a {
   margin-right: 6px;
 }
 
-/* line 26, ../sass/_core.scss */
+/* line 27, ../sass/_core.scss */
 h1 {
   color: #009ddc;
   font-size: 36px;
 }
 
-/* line 31, ../sass/_core.scss */
+/* line 32, ../sass/_core.scss */
 p {
   margin: 8px 0 8px 0;
 }
 
-/* line 35, ../sass/_core.scss */
+/* line 36, ../sass/_core.scss */
 .conduct {
   max-width: 800px;
   margin: 0 auto;
 }
-/* line 38, ../sass/_core.scss */
+/* line 39, ../sass/_core.scss */
 .conduct ul li {
   list-style: disc inside;
 }
@@ -183,7 +183,7 @@ p {
   border-bottom: 1px solid #cccccc;
 }
 
-/* line 12, ../sass/screen.scss */
+/* line 11, ../sass/screen.scss */
 .content {
   max-width: 1100px;
   margin: 0 auto;
@@ -193,7 +193,7 @@ p {
   padding-bottom: 150px;
 }
 
-/* line 21, ../sass/screen.scss */
+/* line 20, ../sass/screen.scss */
 .logo {
   left: 0;
   position: relative;
@@ -202,13 +202,13 @@ p {
   width: 100%;
   margin-bottom: 32px;
 }
-/* line 29, ../sass/screen.scss */
+/* line 28, ../sass/screen.scss */
 .logo img {
   height: 112px;
   width: 600px;
 }
 
-/* line 32, ../sass/screen.scss */
+/* line 31, ../sass/screen.scss */
 .coming-soon {
   display: none;
   left: 0;
@@ -217,7 +217,7 @@ p {
   top: 140px;
   width: 100%;
 }
-/* line 41, ../sass/screen.scss */
+/* line 40, ../sass/screen.scss */
 .coming-soon em {
   background: #009ddc;
   border-radius: 100px;
@@ -230,7 +230,7 @@ p {
   width: 350px;
 }
 
-/* line 54, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 .footer {
   background: #ddd;
   border-top: 4px solid #cccccc;
@@ -240,14 +240,16 @@ p {
   width: 100%;
   z-index: 20;
 }
-
+/* line 61, ../sass/screen.scss */
 .footer.static {
   position: static;
 }
+/* line 63, ../sass/screen.scss */
 .footer.static .twitter-link-wrapper {
   margin-top: 8px;
 }
-/* line 64, ../sass/screen.scss */
+
+/* line 69, ../sass/screen.scss */
 .address-wrapper {
   border-right: 2px solid #cccccc;
   box-sizing: border-box;
@@ -255,26 +257,26 @@ p {
   width: 50%;
 }
 
-/* line 71, ../sass/screen.scss */
+/* line 76, ../sass/screen.scss */
 .address {
   padding: 10px;
 }
 
-/* line 75, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 .twitter-link-wrapper {
   float: left;
   margin: 38px 0 0;
   text-align: center;
   width: 49%;
 }
-/* line 82, ../sass/screen.scss */
+/* line 87, ../sass/screen.scss */
 .twitter-link-wrapper a, .twitter-link-wrapper a:visited, .twitter-link-wrapper a:hover {
   font-size: 30px;
   line-height: 36px;
   text-decoration: none;
 }
 
-/* line 89, ../sass/screen.scss */
+/* line 94, ../sass/screen.scss */
 .twitter-timeline-wrapper {
   bottom: -500px;
   position: fixed;
@@ -283,7 +285,7 @@ p {
   z-index: 10;
 }
 
-/* line 97, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 .calendar-wrapper {
   position: fixed;
   bottom: -500px;
@@ -292,18 +294,18 @@ p {
   z-index: 10;
 }
 
-/* line 105, ../sass/screen.scss */
+/* line 110, ../sass/screen.scss */
 .hackathon {
   margin-top: 32px;
   text-align: center;
 }
-/* line 108, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 .hackathon img {
   width: 400px;
   display: block;
   margin: 0 auto;
 }
-/* line 113, ../sass/screen.scss */
+/* line 118, ../sass/screen.scss */
 .hackathon a {
   font-size: 20px;
 }

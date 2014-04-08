@@ -1,90 +1,204 @@
-/*
-Syntax error: Undefined variable: "$madworks-blue".
-        on line 27 of /Users/bsamson/madworkscw.github.io/sass/_core.scss
-        from line 6 of /Users/bsamson/madworkscw.github.io/sass/mobile.scss
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
 
-Backtrace:
-/Users/bsamson/madworkscw.github.io/sass/_core.scss:27
-/Users/bsamson/madworkscw.github.io/sass/mobile.scss:6
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/script/variable.rb:49:in `_perform'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/script/node.rb:40:in `perform'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/visitors/perform.rb:296:in `visit_prop'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/visitors/perform.rb:98:in `visit'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/visitors/perform.rb:318:in `visit_rule'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/visitors/perform.rb:98:in `visit'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/visitors/perform.rb:225:in `block in visit_import'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/visitors/perform.rb:225:in `map'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/visitors/perform.rb:225:in `visit_import'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/visitors/perform.rb:98:in `visit'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/visitors/perform.rb:98:in `visit'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/tree/root_node.rb:20:in `render'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/engine.rb:315:in `_render'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/sass-3.2.4/lib/sass/engine.rb:262:in `render'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/fssm-0.2.10/lib/fssm/path.rb:35:in `update'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/fssm-0.2.10/lib/fssm/state/directory.rb:39:in `block in modified'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `each'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `modified'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/fssm-0.2.10/lib/fssm/state/directory.rb:18:in `refresh'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:30:in `block in temporary_multipath_handler'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:27:in `each'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:27:in `temporary_multipath_handler'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:17:in `block (2 levels) in run'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:16:in `each'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:16:in `block in run'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/rb-fsevent-0.9.4/lib/rb-fsevent/fsevent.rb:45:in `call'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/rb-fsevent-0.9.4/lib/rb-fsevent/fsevent.rb:45:in `run'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:20:in `run'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/bin/compass:44:in `call'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/bin/compass:23:in `load'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/bin/compass:23:in `<main>'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/bin/ruby_executable_hooks:15:in `eval'
-/Users/bsamson/.rvm/gems/ruby-1.9.3-p484/bin/ruby_executable_hooks:15:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$madworks-blue\".\A         on line 27 of /Users/bsamson/madworkscw.github.io/sass/_core.scss\A         from line 6 of /Users/bsamson/madworkscw.github.io/sass/mobile.scss"; }
+/* line 22, ../../.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/_core.scss */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, li, th, td {
+  color: #333;
+  font-family: "faricy-new-web",sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+/* line 12, ../sass/_core.scss */
+strong {
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* line 13, ../sass/_core.scss */
+em {
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* line 14, ../sass/_core.scss */
+em strong, strong em {
+  font-style: italic;
+  font-weight: 700;
+}
+
+/* line 16, ../sass/_core.scss */
+a, a:visited, a:hover {
+  color: #009ddc;
+}
+
+/* line 17, ../sass/_core.scss */
+a:hover {
+  color: #333;
+}
+
+/* line 19, ../sass/_core.scss */
+.small {
+  font-size: 10px;
+  line-height: 16px;
+}
+
+/* line 22, ../sass/_core.scss */
+.address a {
+  margin-right: 6px;
+}
+
+/* line 27, ../sass/_core.scss */
+h1 {
+  color: #009ddc;
+  font-size: 36px;
+}
+
+/* line 32, ../sass/_core.scss */
+p {
+  margin: 8px 0 8px 0;
+}
+
+/* line 36, ../sass/_core.scss */
+.conduct {
+  max-width: 800px;
+  margin: 0 auto;
+}
+/* line 39, ../sass/_core.scss */
+.conduct ul li {
+  list-style: disc inside;
+}
+
+/* line 9, ../sass/mobile.scss */
+.logo {
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+}
+/* line 14, ../sass/mobile.scss */
+.logo img {
+  max-width: 90%;
+}
+
+/* line 17, ../sass/mobile.scss */
+.coming-soon {
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+}
+/* line 23, ../sass/mobile.scss */
+.coming-soon em {
+  background: #009ddc;
+  border-radius: 100px;
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 auto;
+  max-width: 350px;
+  padding: 10px 20px;
+}
+
+/* line 36, ../sass/mobile.scss */
+.footer {
+  background: #ddd;
+  border-top: 4px solid #cccccc;
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* line 43, ../sass/mobile.scss */
+.address-wrapper {
+  border-bottom: 2px solid #cccccc;
+}
+
+/* line 47, ../sass/mobile.scss */
+.address {
+  padding: 10px;
+}
+
+/* line 51, ../sass/mobile.scss */
+.twitter-link-wrapper {
+  border-bottom: 2px solid #cccccc;
+  padding: 10px;
+  text-align: center;
+}
+/* line 57, ../sass/mobile.scss */
+.twitter-link-wrapper a, .twitter-link-wrapper a:visited, .twitter-link-wrapper a:hover {
+  font-size: 30px;
+  line-height: 36px;
+  text-decoration: none;
+}
+
+/* line 64, ../sass/mobile.scss */
+.twitter-timeline-wrapper {
+  margin: 10px auto;
+  max-width: 500px;
+}

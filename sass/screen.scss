@@ -2,7 +2,6 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-$madworks-blue: #009ddc;
 
 @import "compass/reset";
 @import "compass/utilities/general/clearfix";
@@ -59,6 +58,12 @@ $madworks-blue: #009ddc;
 	position:fixed;
 	width:100%;
 	z-index:20;
+	&.static {
+		position: static;
+   .twitter-link-wrapper {
+		  margin-top: 8px;
+		}
+	}
 }
 .address-wrapper
 {
