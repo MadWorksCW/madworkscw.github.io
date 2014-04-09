@@ -309,3 +309,16 @@ p {
 .hackathon a {
   font-size: 20px;
 }
+
+/* line 123, ../sass/screen.scss */
+.campus img.map {
+  float: right;
+}
+/* line 126, ../sass/screen.scss */
+.campus h1 {
+  background: url("../images/purple_building.png") 0 0 no-repeat;
+  background-position: contain;
+  color: white;
+  height: 440px;
+  padding: 32px;
+}
