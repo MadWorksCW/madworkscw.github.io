@@ -127,14 +127,33 @@ p {
   margin: 8px 0 8px 0;
 }
 
-/* line 36, ../sass/_core.scss */
+/* line 35, ../sass/_core.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 39, ../sass/_core.scss */
 .conduct {
   max-width: 800px;
   margin: 0 auto;
 }
-/* line 39, ../sass/_core.scss */
+/* line 42, ../sass/_core.scss */
 .conduct ul li {
   list-style: disc inside;
+}
+
+/* line 46, ../sass/_core.scss */
+.campus-masthead {
+  position: relative;
+}
+/* line 48, ../sass/_core.scss */
+.campus-masthead h1 {
+  padding: 0;
+  margin: 0;
+  color: white;
+  position: absolute;
+  top: 32px;
+  left: 32px;
 }
 
 /* line 2, ../sass/_members.sass */
@@ -313,12 +332,4 @@ p {
 /* line 123, ../sass/screen.scss */
 .campus img.map {
   float: right;
-}
-/* line 126, ../sass/screen.scss */
-.campus h1 {
-  background: url("../images/purple_building.png") 0 0 no-repeat;
-  background-position: contain;
-  color: white;
-  height: 440px;
-  padding: 32px;
 }

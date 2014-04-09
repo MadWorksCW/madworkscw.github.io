@@ -126,14 +126,33 @@ p {
   margin: 8px 0 8px 0;
 }
 
-/* line 36, ../sass/_core.scss */
+/* line 35, ../sass/_core.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 39, ../sass/_core.scss */
 .conduct {
   max-width: 800px;
   margin: 0 auto;
 }
-/* line 39, ../sass/_core.scss */
+/* line 42, ../sass/_core.scss */
 .conduct ul li {
   list-style: disc inside;
+}
+
+/* line 46, ../sass/_core.scss */
+.campus-masthead {
+  position: relative;
+}
+/* line 48, ../sass/_core.scss */
+.campus-masthead h1 {
+  padding: 0;
+  margin: 0;
+  color: white;
+  position: absolute;
+  top: 32px;
+  left: 32px;
 }
 
 /* line 9, ../sass/mobile.scss */
@@ -148,12 +167,17 @@ p {
 }
 
 /* line 17, ../sass/mobile.scss */
+.content p {
+  padding: 8px;
+}
+
+/* line 22, ../sass/mobile.scss */
 .coming-soon {
   margin-top: 20px;
   text-align: center;
   width: 100%;
 }
-/* line 23, ../sass/mobile.scss */
+/* line 28, ../sass/mobile.scss */
 .coming-soon em {
   background: #009ddc;
   border-radius: 100px;
@@ -166,7 +190,7 @@ p {
   padding: 10px 20px;
 }
 
-/* line 36, ../sass/mobile.scss */
+/* line 41, ../sass/mobile.scss */
 .footer {
   background: #ddd;
   border-top: 4px solid #cccccc;
@@ -174,31 +198,38 @@ p {
   width: 100%;
 }
 
-/* line 43, ../sass/mobile.scss */
+/* line 48, ../sass/mobile.scss */
 .address-wrapper {
   border-bottom: 2px solid #cccccc;
 }
 
-/* line 47, ../sass/mobile.scss */
+/* line 52, ../sass/mobile.scss */
 .address {
   padding: 10px;
 }
 
-/* line 51, ../sass/mobile.scss */
+/* line 56, ../sass/mobile.scss */
 .twitter-link-wrapper {
   border-bottom: 2px solid #cccccc;
   padding: 10px;
   text-align: center;
 }
-/* line 57, ../sass/mobile.scss */
+/* line 62, ../sass/mobile.scss */
 .twitter-link-wrapper a, .twitter-link-wrapper a:visited, .twitter-link-wrapper a:hover {
   font-size: 30px;
   line-height: 36px;
   text-decoration: none;
 }
 
-/* line 64, ../sass/mobile.scss */
+/* line 69, ../sass/mobile.scss */
 .twitter-timeline-wrapper {
   margin: 10px auto;
   max-width: 500px;
+}
+
+/* line 73, ../sass/mobile.scss */
+.campus-masthead h1 {
+  top: 0px;
+  left: 4px;
+  font-size: 28px;
 }
