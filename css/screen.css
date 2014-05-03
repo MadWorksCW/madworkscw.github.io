@@ -333,3 +333,7 @@ img {
 .campus img.map {
   float: right;
 }
+/* line 126, ../sass/screen.scss */
+.campus .apply-now a {
+  font-size: 28px;
+}
