@@ -67,7 +67,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 3, ../sass/_core.scss */
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, li, th, td {
+html, body {
   color: #333;
   font-family: "faricy-new-web",sans-serif;
   font-size: 16px;
@@ -154,6 +154,15 @@ img {
   top: 32px;
   left: 32px;
 }
+/* line 55, ../sass/_core.scss */
+.campus-masthead h1 .mad {
+  color: #009ddc;
+}
+
+/* line 61, ../sass/_core.scss */
+.mad {
+  color: #009ddc;
+}
 
 /* line 9, ../sass/mobile.scss */
 .logo {
@@ -193,14 +202,14 @@ img {
 /* line 41, ../sass/mobile.scss */
 .footer {
   background: #ddd;
-  border-top: 4px solid #cccccc;
+  border-top: 4px solid #ccc;
   margin-top: 20px;
   width: 100%;
 }
 
 /* line 48, ../sass/mobile.scss */
 .address-wrapper {
-  border-bottom: 2px solid #cccccc;
+  border-bottom: 2px solid #ccc;
 }
 
 /* line 52, ../sass/mobile.scss */
@@ -210,7 +219,7 @@ img {
 
 /* line 56, ../sass/mobile.scss */
 .twitter-link-wrapper {
-  border-bottom: 2px solid #cccccc;
+  border-bottom: 2px solid #ccc;
   padding: 10px;
   text-align: center;
 }

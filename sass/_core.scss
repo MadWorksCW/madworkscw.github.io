@@ -1,5 +1,5 @@
 @import "variables";
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, li, th, td,
+html, body
 {
 	color:#333;
 	font-family: "faricy-new-web",sans-serif;
@@ -52,6 +52,13 @@ img {
     position: absolute;
     top: 32px;
     left: 32px;
+    .mad {
+      color: $madworks-blue;
+    }
   }
+}
+
+.mad {
+  color: $madworks-blue;
 }
 

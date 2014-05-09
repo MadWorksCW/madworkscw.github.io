@@ -68,7 +68,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 3, ../sass/_core.scss */
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, li, th, td {
+html, body {
   color: #333;
   font-family: "faricy-new-web",sans-serif;
   font-size: 16px;
@@ -154,6 +154,15 @@ img {
   position: absolute;
   top: 32px;
   left: 32px;
+}
+/* line 55, ../sass/_core.scss */
+.campus-masthead h1 .mad {
+  color: #009ddc;
+}
+
+/* line 61, ../sass/_core.scss */
+.mad {
+  color: #009ddc;
 }
 
 /* line 2, ../sass/_members.sass */
@@ -252,7 +261,7 @@ img {
 /* line 53, ../sass/screen.scss */
 .footer {
   background: #ddd;
-  border-top: 4px solid #cccccc;
+  border-top: 4px solid #ccc;
   bottom: -150px;
   left: 0;
   position: fixed;
@@ -270,7 +279,7 @@ img {
 
 /* line 69, ../sass/screen.scss */
 .address-wrapper {
-  border-right: 2px solid #cccccc;
+  border-right: 2px solid #ccc;
   box-sizing: border-box;
   float: left;
   width: 50%;
