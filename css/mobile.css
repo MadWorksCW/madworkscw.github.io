@@ -154,14 +154,15 @@ img {
   top: 32px;
   left: 32px;
 }
-/* line 55, ../sass/_core.scss */
-.campus-masthead h1 .mad {
+
+/* line 58, ../sass/_core.scss */
+.mad {
   color: #009ddc;
 }
 
 /* line 61, ../sass/_core.scss */
-.mad {
-  color: #009ddc;
+.urp {
+  color: #b32216;
 }
 
 /* line 9, ../sass/mobile.scss */
