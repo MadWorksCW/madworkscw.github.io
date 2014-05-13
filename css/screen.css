@@ -339,11 +339,27 @@ img {
   font-size: 20px;
 }
 
-/* line 123, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
+.campus {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+}
+/* line 126, ../sass/screen.scss */
+.campus h1 {
+  margin-top: 20px;
+}
+/* line 129, ../sass/screen.scss */
 .campus img.map {
   float: right;
 }
-/* line 126, ../sass/screen.scss */
-.campus .apply-now a {
-  font-size: 28px;
+/* line 132, ../sass/screen.scss */
+.campus .apply-now {
+  font-size: 36px;
+  margin: 32px;
+  text-align: center;
+}
+/* line 137, ../sass/screen.scss */
+.campus a {
+  color: #b32216;
 }
