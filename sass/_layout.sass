@@ -2,12 +2,7 @@ header
   +box-shadow(0 0 4px #333)
   +box-sizing(border-box)
   background: white
-  height: 140px
-  .header-wrap
-    margin: 0 auto
-    max-width: 1100px
-    padding: 40px
-    position: relative
+  min-height: 140px
   .contact-tab
     background: url('../images/contact-tab.png') no-repeat 0 0
     color: white
@@ -22,12 +17,15 @@ header
       img
         position: relative
         top: 4px
+  img.logo
+    max-width: 40%
+    float: left
   .locations
     +clearfix
     float: right
   .location
     float: left
-    width: 170px
+    width: 150px
     h1
       color: $text-color
       font-weight: 100
@@ -37,4 +35,30 @@ header
 
 footer
   background: $dark-bg
-  height: 230px
+  +clearfix
+  .wrap
+    padding: 20px
+  section
+    float: left
+    width: 200px
+    padding: 8px
+    margin: 8px
+    h3
+      color: white
+    a, a:visited
+      color: $text-color
+      text-decoration: none
+      &:hover
+        text-decoration: underline
+        color: $madworks-blue
+    i.fa 
+      color: $madworks-blue
+      font-size: 20px
+
+
+
+.wrap
+  margin: 0 auto
+  max-width: 1100px
+  padding: 40px
+  position: relative

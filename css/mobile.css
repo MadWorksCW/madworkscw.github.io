@@ -249,29 +249,132 @@ img {
   color: #b32216;
 }
 
-/* line 9, ../sass/mobile.scss */
-.logo {
-  margin-top: 20px;
-  text-align: center;
-  width: 100%;
+/* line 1, ../sass/_layout.sass */
+header {
+  -webkit-box-shadow: 0 0 4px #333333;
+  -moz-box-shadow: 0 0 4px #333333;
+  box-shadow: 0 0 4px #333333;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: white;
+  min-height: 140px;
 }
-/* line 14, ../sass/mobile.scss */
-.logo img {
-  max-width: 90%;
+/* line 6, ../sass/_layout.sass */
+header .contact-tab {
+  background: url("../images/contact-tab.png") no-repeat 0 0;
+  color: white;
+  padding: 4px 55px;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  width: 210px;
+}
+/* line 14, ../sass/_layout.sass */
+header .contact-tab a {
+  color: white;
+  text-decoration: none;
+}
+/* line 17, ../sass/_layout.sass */
+header .contact-tab a img {
+  position: relative;
+  top: 4px;
+}
+/* line 20, ../sass/_layout.sass */
+header img.logo {
+  max-width: 40%;
+  float: left;
+}
+/* line 23, ../sass/_layout.sass */
+header .locations {
+  overflow: hidden;
+  *zoom: 1;
+  float: right;
+}
+/* line 26, ../sass/_layout.sass */
+header .location {
+  float: left;
+  width: 150px;
+}
+/* line 29, ../sass/_layout.sass */
+header .location h1 {
+  color: #545454;
+  font-weight: 100;
+}
+/* line 32, ../sass/_layout.sass */
+header .location h2 {
+  color: #bfbfbf;
+  font-weight: 100;
 }
 
-/* line 17, ../sass/mobile.scss */
+/* line 36, ../sass/_layout.sass */
+footer {
+  background: #232323;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 39, ../sass/_layout.sass */
+footer .wrap {
+  padding: 20px;
+}
+/* line 41, ../sass/_layout.sass */
+footer section {
+  float: left;
+  width: 200px;
+  padding: 8px;
+  margin: 8px;
+}
+/* line 46, ../sass/_layout.sass */
+footer section h3 {
+  color: white;
+}
+/* line 48, ../sass/_layout.sass */
+footer section a, footer section a:visited {
+  color: #545454;
+  text-decoration: none;
+}
+/* line 51, ../sass/_layout.sass */
+footer section a:hover, footer section a:visited:hover {
+  text-decoration: underline;
+  color: #009ddc;
+}
+/* line 54, ../sass/_layout.sass */
+footer section i.fa {
+  color: #009ddc;
+  font-size: 20px;
+}
+
+/* line 60, ../sass/_layout.sass */
+.wrap {
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 40px;
+  position: relative;
+}
+
+/* line 10, ../sass/mobile.scss */
+header h1, header h2 {
+  font-size: .8em;
+}
+/* line 13, ../sass/mobile.scss */
+header .locations, header .location, header img.logo {
+  float: none;
+  display: block;
+  max-width: 100%;
+}
+
+/* line 20, ../sass/mobile.scss */
 .content p {
   padding: 8px;
 }
 
-/* line 22, ../sass/mobile.scss */
+/* line 25, ../sass/mobile.scss */
 .coming-soon {
   margin-top: 20px;
   text-align: center;
   width: 100%;
 }
-/* line 28, ../sass/mobile.scss */
+/* line 31, ../sass/mobile.scss */
 .coming-soon em {
   background: #009ddc;
   border-radius: 100px;
@@ -284,7 +387,7 @@ img {
   padding: 10px 20px;
 }
 
-/* line 41, ../sass/mobile.scss */
+/* line 44, ../sass/mobile.scss */
 .footer {
   background: #ddd;
   border-top: 4px solid #ccc;
@@ -292,36 +395,36 @@ img {
   width: 100%;
 }
 
-/* line 48, ../sass/mobile.scss */
+/* line 51, ../sass/mobile.scss */
 .address-wrapper {
   border-bottom: 2px solid #ccc;
 }
 
-/* line 52, ../sass/mobile.scss */
+/* line 55, ../sass/mobile.scss */
 .address {
   padding: 10px;
 }
 
-/* line 56, ../sass/mobile.scss */
+/* line 59, ../sass/mobile.scss */
 .twitter-link-wrapper {
   border-bottom: 2px solid #ccc;
   padding: 10px;
   text-align: center;
 }
-/* line 62, ../sass/mobile.scss */
+/* line 65, ../sass/mobile.scss */
 .twitter-link-wrapper a, .twitter-link-wrapper a:visited, .twitter-link-wrapper a:hover {
   font-size: 30px;
   line-height: 36px;
   text-decoration: none;
 }
 
-/* line 69, ../sass/mobile.scss */
+/* line 72, ../sass/mobile.scss */
 .twitter-timeline-wrapper {
   margin: 10px auto;
   max-width: 500px;
 }
 
-/* line 73, ../sass/mobile.scss */
+/* line 76, ../sass/mobile.scss */
 .campus-masthead h1 {
   top: 0px;
   left: 4px;

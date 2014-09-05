@@ -4,14 +4,17 @@
 
 @import "compass/reset";
 @import "core";
+@import "layout";
 
-.logo
-{
-	margin-top:20px;	
-	text-align:center;
-	width:100%;
-
-	img {max-width:90%;}
+header {
+	h1, h2 {
+		font-size: .8em;
+	}
+	.locations, .location, img.logo {
+		float: none;
+		display: block;
+		max-width: 100%;
+	}
 }
 .content {
 	p {

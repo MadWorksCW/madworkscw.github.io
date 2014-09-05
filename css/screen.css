@@ -194,16 +194,9 @@ header {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background: white;
-  height: 140px;
+  min-height: 140px;
 }
 /* line 6, ../sass/_layout.sass */
-header .header-wrap {
-  margin: 0 auto;
-  max-width: 1100px;
-  padding: 40px;
-  position: relative;
-}
-/* line 11, ../sass/_layout.sass */
 header .contact-tab {
   background: url("../images/contact-tab.png") no-repeat 0 0;
   color: white;
@@ -213,42 +206,86 @@ header .contact-tab {
   top: 0;
   width: 210px;
 }
-/* line 19, ../sass/_layout.sass */
+/* line 14, ../sass/_layout.sass */
 header .contact-tab a {
   color: white;
   text-decoration: none;
 }
-/* line 22, ../sass/_layout.sass */
+/* line 17, ../sass/_layout.sass */
 header .contact-tab a img {
   position: relative;
   top: 4px;
 }
-/* line 25, ../sass/_layout.sass */
+/* line 20, ../sass/_layout.sass */
+header img.logo {
+  max-width: 40%;
+  float: left;
+}
+/* line 23, ../sass/_layout.sass */
 header .locations {
   overflow: hidden;
   *zoom: 1;
   float: right;
 }
-/* line 28, ../sass/_layout.sass */
+/* line 26, ../sass/_layout.sass */
 header .location {
   float: left;
-  width: 170px;
+  width: 150px;
 }
-/* line 31, ../sass/_layout.sass */
+/* line 29, ../sass/_layout.sass */
 header .location h1 {
   color: #545454;
   font-weight: 100;
 }
-/* line 34, ../sass/_layout.sass */
+/* line 32, ../sass/_layout.sass */
 header .location h2 {
   color: #bfbfbf;
   font-weight: 100;
 }
 
-/* line 38, ../sass/_layout.sass */
+/* line 36, ../sass/_layout.sass */
 footer {
   background: #232323;
-  height: 230px;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 39, ../sass/_layout.sass */
+footer .wrap {
+  padding: 20px;
+}
+/* line 41, ../sass/_layout.sass */
+footer section {
+  float: left;
+  width: 200px;
+  padding: 8px;
+  margin: 8px;
+}
+/* line 46, ../sass/_layout.sass */
+footer section h3 {
+  color: white;
+}
+/* line 48, ../sass/_layout.sass */
+footer section a, footer section a:visited {
+  color: #545454;
+  text-decoration: none;
+}
+/* line 51, ../sass/_layout.sass */
+footer section a:hover, footer section a:visited:hover {
+  text-decoration: underline;
+  color: #009ddc;
+}
+/* line 54, ../sass/_layout.sass */
+footer section i.fa {
+  color: #009ddc;
+  font-size: 20px;
+}
+
+/* line 60, ../sass/_layout.sass */
+.wrap {
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 40px;
+  position: relative;
 }
 
 /* line 2, ../sass/_members.sass */
