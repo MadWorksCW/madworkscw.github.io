@@ -7,13 +7,7 @@
 @import "layout";
 @import "members";
 @import "home";
-.content
-{
-	max-width: 1100px;
-	margin: 0 auto;
-	@include clearfix;
-	position: relative;
-}
+
 
 .hackathon {
 	margin-top: 32px;

@@ -162,77 +162,82 @@ html {
 }
 
 /* line 28, ../sass/_core.scss */
+.content {
+  background: white;
+}
+
+/* line 32, ../sass/_core.scss */
 strong {
   font-style: normal;
   font-weight: 700;
 }
 
-/* line 29, ../sass/_core.scss */
+/* line 33, ../sass/_core.scss */
 em {
   font-style: italic;
   font-weight: 400;
 }
 
-/* line 30, ../sass/_core.scss */
+/* line 34, ../sass/_core.scss */
 em strong, strong em {
   font-style: italic;
   font-weight: 700;
 }
 
-/* line 32, ../sass/_core.scss */
+/* line 36, ../sass/_core.scss */
 a, a:visited, a:hover {
   color: #009ddc;
   text-decoration: none;
 }
 
-/* line 33, ../sass/_core.scss */
+/* line 37, ../sass/_core.scss */
 a:hover {
   color: #333;
   text-decoration: underline;
 }
 
-/* line 35, ../sass/_core.scss */
+/* line 39, ../sass/_core.scss */
 .small {
   font-size: 10px;
   line-height: 16px;
 }
 
-/* line 38, ../sass/_core.scss */
+/* line 42, ../sass/_core.scss */
 .address a {
   margin-right: 6px;
 }
 
-/* line 43, ../sass/_core.scss */
+/* line 47, ../sass/_core.scss */
 h1 {
   color: #009ddc;
   font-size: 36px;
 }
 
-/* line 48, ../sass/_core.scss */
+/* line 52, ../sass/_core.scss */
 p {
   margin: 8px 0 8px 0;
 }
 
-/* line 51, ../sass/_core.scss */
+/* line 55, ../sass/_core.scss */
 img {
   max-width: 100%;
 }
 
-/* line 55, ../sass/_core.scss */
+/* line 59, ../sass/_core.scss */
 .conduct {
   max-width: 800px;
   margin: 0 auto;
 }
-/* line 58, ../sass/_core.scss */
+/* line 62, ../sass/_core.scss */
 .conduct ul li {
   list-style: disc inside;
 }
 
-/* line 62, ../sass/_core.scss */
+/* line 66, ../sass/_core.scss */
 .campus-masthead {
   position: relative;
 }
-/* line 64, ../sass/_core.scss */
+/* line 68, ../sass/_core.scss */
 .campus-masthead h1 {
   padding: 0;
   margin: 0;
@@ -242,21 +247,21 @@ img {
   left: 32px;
 }
 
-/* line 74, ../sass/_core.scss */
+/* line 78, ../sass/_core.scss */
 .mad {
   color: #009ddc;
 }
 
-/* line 77, ../sass/_core.scss */
+/* line 81, ../sass/_core.scss */
 .urp {
   color: #b32216;
 }
 
 /* line 1, ../sass/_layout.sass */
 header {
-  -webkit-box-shadow: inset 0 -2px 2px -2px #333333;
-  -moz-box-shadow: inset 0 -2px 2px -2px #333333;
-  box-shadow: inset 0 -2px 2px -2px #333333;
+  -webkit-box-shadow: inset 0 -4px 2px -2px #cccccc;
+  -moz-box-shadow: inset 0 -4px 2px -2px #cccccc;
+  box-shadow: inset 0 -4px 2px -2px #cccccc;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;

@@ -25,6 +25,10 @@ html {
   @include box-sizing(inherit);
 }
 
+.content {
+  background: white
+}
+
 strong {font-style:normal;font-weight:700;}
 em {font-style:italic;font-weight:400;}
 em strong, strong em {font-style:italic;font-weight:700;}
