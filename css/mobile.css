@@ -146,98 +146,114 @@ html, body {
   background: #232323;
 }
 
+/* line 20, ../sass/_core.scss */
+p {
+  font-family: "open-sans", sans-serif;
+}
+
 /* sorry mark */
-/* line 21, ../sass/_core.scss */
+/* line 26, ../sass/_core.scss */
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 24, ../sass/_core.scss */
+/* line 29, ../sass/_core.scss */
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit;
 }
 
-/* line 28, ../sass/_core.scss */
+/* line 33, ../sass/_core.scss */
 .content {
   background: white;
 }
 
-/* line 32, ../sass/_core.scss */
+/* line 37, ../sass/_core.scss */
 strong {
   font-style: normal;
   font-weight: 700;
 }
 
-/* line 33, ../sass/_core.scss */
+/* line 38, ../sass/_core.scss */
 em {
   font-style: italic;
   font-weight: 400;
 }
 
-/* line 34, ../sass/_core.scss */
+/* line 39, ../sass/_core.scss */
 em strong, strong em {
   font-style: italic;
   font-weight: 700;
 }
 
-/* line 36, ../sass/_core.scss */
+/* line 41, ../sass/_core.scss */
 a, a:visited, a:hover {
   color: #009ddc;
   text-decoration: none;
 }
 
-/* line 37, ../sass/_core.scss */
+/* line 42, ../sass/_core.scss */
 a:hover {
   color: #333;
   text-decoration: underline;
 }
 
-/* line 39, ../sass/_core.scss */
+/* line 44, ../sass/_core.scss */
 .small {
   font-size: 10px;
   line-height: 16px;
 }
 
-/* line 42, ../sass/_core.scss */
+/* line 47, ../sass/_core.scss */
 .address a {
   margin-right: 6px;
 }
 
-/* line 47, ../sass/_core.scss */
+/* line 52, ../sass/_core.scss */
+h1, h2 {
+  color: #3f3f3f;
+  text-transform: uppercase;
+  text-shadow: -2px 2px 0px #dddddd;
+}
+
+/* line 57, ../sass/_core.scss */
 h1 {
-  color: #009ddc;
   font-size: 36px;
 }
 
-/* line 52, ../sass/_core.scss */
+/* line 58, ../sass/_core.scss */
+h2 {
+  font-size: 28px;
+}
+
+/* line 60, ../sass/_core.scss */
 p {
   margin: 8px 0 8px 0;
 }
 
-/* line 55, ../sass/_core.scss */
+/* line 63, ../sass/_core.scss */
 img {
   max-width: 100%;
 }
 
-/* line 59, ../sass/_core.scss */
+/* line 67, ../sass/_core.scss */
 .conduct {
   max-width: 800px;
   margin: 0 auto;
 }
-/* line 62, ../sass/_core.scss */
+/* line 70, ../sass/_core.scss */
 .conduct ul li {
   list-style: disc inside;
 }
 
-/* line 66, ../sass/_core.scss */
+/* line 74, ../sass/_core.scss */
 .campus-masthead {
   position: relative;
 }
-/* line 68, ../sass/_core.scss */
+/* line 76, ../sass/_core.scss */
 .campus-masthead h1 {
   padding: 0;
   margin: 0;
@@ -247,14 +263,32 @@ img {
   left: 32px;
 }
 
-/* line 78, ../sass/_core.scss */
+/* line 86, ../sass/_core.scss */
 .mad {
   color: #009ddc;
 }
 
-/* line 81, ../sass/_core.scss */
+/* line 89, ../sass/_core.scss */
 .urp {
   color: #b32216;
+}
+
+/* line 93, ../sass/_core.scss */
+.highlight {
+  background: rgba(255, 255, 255, 0.9);
+  -webkit-box-shadow: 0 0 4px #cccccc;
+  -moz-box-shadow: 0 0 4px #cccccc;
+  box-shadow: 0 0 4px #cccccc;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+/* line 98, ../sass/_core.scss */
+.highlight h1, .highlight h2 {
+  font-size: 48px;
+}
+/* line 101, ../sass/_core.scss */
+.highlight h2 {
+  font-size: 30px;
 }
 
 /* line 1, ../sass/_layout.sass */
@@ -307,52 +341,61 @@ header .location {
   width: 180px;
 }
 /* line 30, ../sass/_layout.sass */
+header .location h1, header .location h2 {
+  text-shadow: none;
+}
+/* line 32, ../sass/_layout.sass */
 header .location h1 {
   color: #545454;
   font-weight: 100;
 }
-/* line 33, ../sass/_layout.sass */
+/* line 35, ../sass/_layout.sass */
 header .location h2 {
   color: #bfbfbf;
   font-weight: 100;
   font-size: 20px;
+  text-transform: none;
+}
+/* line 40, ../sass/_layout.sass */
+header .location a:hover {
+  text-decoration: none;
 }
 
-/* line 38, ../sass/_layout.sass */
+/* line 44, ../sass/_layout.sass */
 footer {
   background: #232323;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 41, ../sass/_layout.sass */
+/* line 47, ../sass/_layout.sass */
 footer .wrap {
   padding: 20px;
 }
-/* line 43, ../sass/_layout.sass */
+/* line 49, ../sass/_layout.sass */
 footer section {
   float: left;
   width: 25%;
   padding: 16px;
 }
-/* line 47, ../sass/_layout.sass */
+/* line 53, ../sass/_layout.sass */
 footer section h3 {
   color: white;
 }
-/* line 49, ../sass/_layout.sass */
+/* line 55, ../sass/_layout.sass */
 footer section a, footer section a:visited {
   color: #545454;
 }
-/* line 51, ../sass/_layout.sass */
+/* line 57, ../sass/_layout.sass */
 footer section a:hover, footer section a:visited:hover {
   color: #009ddc;
 }
-/* line 53, ../sass/_layout.sass */
+/* line 59, ../sass/_layout.sass */
 footer section i.fa {
   color: #009ddc;
   font-size: 20px;
 }
 
-/* line 57, ../sass/_layout.sass */
+/* line 63, ../sass/_layout.sass */
 .wrap {
   margin: 0 auto;
   max-width: 1100px;

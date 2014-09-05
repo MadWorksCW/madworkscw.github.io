@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<div class="jumbotron" style="background-image: url('{{page.jumbotron}}')"></div>
+<div class="wrap page">
+  <div class="highlight">
+    <h1 class="page-title">
+      {{page.title}}
+      <br><img src="/images/pc-divider.png">
+    </h1>
+    {{ content }}
+  </div>
+  <div class="page-sidebar">
+    {{ sidebar_content }}
+    {% if sidebar_content %}
+     
+    {% else %}
+      <div class="twitter">
+      <h1>
+      The Latest
+      <br><img src="/images/twitter-divider.png">
+      </h1>
+      </div>
+
+    {% endif %}
+  </div>
+</div>
+<div style="clear: both"></div>

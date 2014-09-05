@@ -82,98 +82,114 @@ html, body {
   background: #232323;
 }
 
+/* line 20, ../sass/_core.scss */
+p {
+  font-family: "open-sans", sans-serif;
+}
+
 /* sorry mark */
-/* line 21, ../sass/_core.scss */
+/* line 26, ../sass/_core.scss */
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 24, ../sass/_core.scss */
+/* line 29, ../sass/_core.scss */
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit;
 }
 
-/* line 28, ../sass/_core.scss */
+/* line 33, ../sass/_core.scss */
 .content {
   background: white;
 }
 
-/* line 32, ../sass/_core.scss */
+/* line 37, ../sass/_core.scss */
 strong {
   font-style: normal;
   font-weight: 700;
 }
 
-/* line 33, ../sass/_core.scss */
+/* line 38, ../sass/_core.scss */
 em {
   font-style: italic;
   font-weight: 400;
 }
 
-/* line 34, ../sass/_core.scss */
+/* line 39, ../sass/_core.scss */
 em strong, strong em {
   font-style: italic;
   font-weight: 700;
 }
 
-/* line 36, ../sass/_core.scss */
+/* line 41, ../sass/_core.scss */
 a, a:visited, a:hover {
   color: #009ddc;
   text-decoration: none;
 }
 
-/* line 37, ../sass/_core.scss */
+/* line 42, ../sass/_core.scss */
 a:hover {
   color: #333;
   text-decoration: underline;
 }
 
-/* line 39, ../sass/_core.scss */
+/* line 44, ../sass/_core.scss */
 .small {
   font-size: 10px;
   line-height: 16px;
 }
 
-/* line 42, ../sass/_core.scss */
+/* line 47, ../sass/_core.scss */
 .address a {
   margin-right: 6px;
 }
 
-/* line 47, ../sass/_core.scss */
+/* line 52, ../sass/_core.scss */
+h1, h2 {
+  color: #3f3f3f;
+  text-transform: uppercase;
+  text-shadow: -2px 2px 0px #dddddd;
+}
+
+/* line 57, ../sass/_core.scss */
 h1 {
-  color: #009ddc;
   font-size: 36px;
 }
 
-/* line 52, ../sass/_core.scss */
+/* line 58, ../sass/_core.scss */
+h2 {
+  font-size: 28px;
+}
+
+/* line 60, ../sass/_core.scss */
 p {
   margin: 8px 0 8px 0;
 }
 
-/* line 55, ../sass/_core.scss */
+/* line 63, ../sass/_core.scss */
 img {
   max-width: 100%;
 }
 
-/* line 59, ../sass/_core.scss */
+/* line 67, ../sass/_core.scss */
 .conduct {
   max-width: 800px;
   margin: 0 auto;
 }
-/* line 62, ../sass/_core.scss */
+/* line 70, ../sass/_core.scss */
 .conduct ul li {
   list-style: disc inside;
 }
 
-/* line 66, ../sass/_core.scss */
+/* line 74, ../sass/_core.scss */
 .campus-masthead {
   position: relative;
 }
-/* line 68, ../sass/_core.scss */
+/* line 76, ../sass/_core.scss */
 .campus-masthead h1 {
   padding: 0;
   margin: 0;
@@ -183,14 +199,32 @@ img {
   left: 32px;
 }
 
-/* line 78, ../sass/_core.scss */
+/* line 86, ../sass/_core.scss */
 .mad {
   color: #009ddc;
 }
 
-/* line 81, ../sass/_core.scss */
+/* line 89, ../sass/_core.scss */
 .urp {
   color: #b32216;
+}
+
+/* line 93, ../sass/_core.scss */
+.highlight {
+  background: rgba(255, 255, 255, 0.9);
+  -webkit-box-shadow: 0 0 4px #cccccc;
+  -moz-box-shadow: 0 0 4px #cccccc;
+  box-shadow: 0 0 4px #cccccc;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+/* line 98, ../sass/_core.scss */
+.highlight h1, .highlight h2 {
+  font-size: 48px;
+}
+/* line 101, ../sass/_core.scss */
+.highlight h2 {
+  font-size: 30px;
 }
 
 /* line 1, ../sass/_layout.sass */
@@ -243,52 +277,61 @@ header .location {
   width: 180px;
 }
 /* line 30, ../sass/_layout.sass */
+header .location h1, header .location h2 {
+  text-shadow: none;
+}
+/* line 32, ../sass/_layout.sass */
 header .location h1 {
   color: #545454;
   font-weight: 100;
 }
-/* line 33, ../sass/_layout.sass */
+/* line 35, ../sass/_layout.sass */
 header .location h2 {
   color: #bfbfbf;
   font-weight: 100;
   font-size: 20px;
+  text-transform: none;
+}
+/* line 40, ../sass/_layout.sass */
+header .location a:hover {
+  text-decoration: none;
 }
 
-/* line 38, ../sass/_layout.sass */
+/* line 44, ../sass/_layout.sass */
 footer {
   background: #232323;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 41, ../sass/_layout.sass */
+/* line 47, ../sass/_layout.sass */
 footer .wrap {
   padding: 20px;
 }
-/* line 43, ../sass/_layout.sass */
+/* line 49, ../sass/_layout.sass */
 footer section {
   float: left;
   width: 25%;
   padding: 16px;
 }
-/* line 47, ../sass/_layout.sass */
+/* line 53, ../sass/_layout.sass */
 footer section h3 {
   color: white;
 }
-/* line 49, ../sass/_layout.sass */
+/* line 55, ../sass/_layout.sass */
 footer section a, footer section a:visited {
   color: #545454;
 }
-/* line 51, ../sass/_layout.sass */
+/* line 57, ../sass/_layout.sass */
 footer section a:hover, footer section a:visited:hover {
   color: #009ddc;
 }
-/* line 53, ../sass/_layout.sass */
+/* line 59, ../sass/_layout.sass */
 footer section i.fa {
   color: #009ddc;
   font-size: 20px;
 }
 
-/* line 57, ../sass/_layout.sass */
+/* line 63, ../sass/_layout.sass */
 .wrap {
   margin: 0 auto;
   max-width: 1100px;
@@ -344,7 +387,7 @@ footer section i.fa {
 
 /* line 1, ../sass/_home.sass */
 .jumbotron {
-  background: url("../images/jumbotron.png");
+  background-color: #009ddc;
   background-size: cover;
   height: 440px;
   overflow: hidden;
@@ -352,32 +395,19 @@ footer section i.fa {
 }
 /* line 6, ../sass/_home.sass */
 .jumbotron .highlight {
-  background: rgba(255, 255, 255, 0.8);
-  -webkit-box-shadow: 0 0 4px #cccccc;
-  -moz-box-shadow: 0 0 4px #cccccc;
-  box-shadow: 0 0 4px #cccccc;
-  border: 1px solid #cccccc;
   height: 180px;
   margin: 100px auto;
   max-width: 80%;
-  padding: 20px;
   position: relative;
   text-align: center;
   width: 680px;
 }
-/* line 17, ../sass/_home.sass */
-.jumbotron .highlight h1 {
-  color: #3f3f3f;
-  text-transform: uppercase;
-  text-shadow: -2px 2px 2px #ababab;
-  font-size: 48px;
-}
-/* line 22, ../sass/_home.sass */
-.jumbotron .highlight h2 {
+/* line 13, ../sass/_home.sass */
+.jumbotron .highlight h3 {
   margin-top: 8px;
   font-size: 30px;
 }
-/* line 25, ../sass/_home.sass */
+/* line 16, ../sass/_home.sass */
 .jumbotron .highlight a.action-button {
   font-size: 20px;
   display: block;
@@ -393,43 +423,138 @@ footer section i.fa {
   color: white;
 }
 
-/* line 12, ../sass/screen.scss */
+/* line 2, ../sass/_page.sass */
+.page.wrap .highlight {
+  width: 680px;
+  margin-top: -300px;
+  overflow: hidden;
+  *zoom: 1;
+  text-align: center;
+  float: left;
+}
+/* line 7, ../sass/_page.sass */
+.page.wrap .highlight h1 {
+  margin: 40px;
+}
+/* line 10, ../sass/_page.sass */
+.page.wrap .highlight.full {
+  width: 100%;
+}
+/* line 12, ../sass/_page.sass */
+.page.wrap .page-sidebar {
+  float: right;
+  width: 300px;
+}
+/* line 15, ../sass/_page.sass */
+.page.wrap .page-sidebar h1 {
+  text-align: center;
+}
+
+/* line 1, ../sass/_campus.sass */
+.sub-nav-tabs {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 3, ../sass/_campus.sass */
+.sub-nav-tabs li {
+  list-style: none;
+  float: left;
+  width: 20%;
+  border: 2px solid #006ac6;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 1px;
+}
+/* line 11, ../sass/_campus.sass */
+.sub-nav-tabs li.active {
+  border-width: 2px;
+  border-bottom-color: white;
+  border-top-color: #006ac6;
+}
+/* line 15, ../sass/_campus.sass */
+.sub-nav-tabs li.active a {
+  margin-left: 0;
+}
+/* line 17, ../sass/_campus.sass */
+.sub-nav-tabs li a, .sub-nav-tabs li a:visited, .sub-nav-tabs li a:hover {
+  font-size: 18px;
+  background: #009ddc;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: white;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+/* line 26, ../sass/_campus.sass */
+.sub-nav-tabs li a:hover {
+  background: #006ac6;
+}
+
+/* line 28, ../sass/_campus.sass */
+.campus {
+  border: 2px solid #006ac6;
+  border-top-width: 0;
+}
+/* line 31, ../sass/_campus.sass */
+.campus .tab {
+  margin: -2px 0;
+  overflow: hidden;
+  *zoom: 1;
+  min-height: 500px;
+  text-align: left;
+  padding: 16px;
+}
+/* line 37, ../sass/_campus.sass */
+.campus .tab li {
+  list-style: disc inside none;
+}
+/* line 39, ../sass/_campus.sass */
+.campus .big-link {
+  display: block;
+  width: 250px;
+  margin: 16px auto;
+  font-size: 36px;
+}
+
+/* line 13, ../sass/screen.scss */
 .hackathon {
   margin-top: 32px;
   text-align: center;
 }
-/* line 15, ../sass/screen.scss */
+/* line 16, ../sass/screen.scss */
 .hackathon img {
   width: 400px;
   display: block;
   margin: 0 auto;
 }
-/* line 20, ../sass/screen.scss */
+/* line 21, ../sass/screen.scss */
 .hackathon a {
   font-size: 20px;
 }
 
-/* line 24, ../sass/screen.scss */
+/* line 25, ../sass/screen.scss */
 .campus {
   font-size: 18px;
   line-height: 1.4;
   font-family: Helvetica, Arial, sans-serif;
 }
-/* line 28, ../sass/screen.scss */
+/* line 29, ../sass/screen.scss */
 .campus h1 {
   margin-top: 20px;
 }
-/* line 31, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 .campus img.map {
   float: right;
 }
-/* line 34, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 .campus .apply-now {
   font-size: 36px;
   margin: 32px;
   text-align: center;
 }
-/* line 39, ../sass/screen.scss */
+/* line 40, ../sass/screen.scss */
 .campus a {
   color: #b32216;
 }

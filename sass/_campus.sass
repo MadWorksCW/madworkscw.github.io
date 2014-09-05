@@ -1,0 +1,43 @@
+.sub-nav-tabs
+  +clearfix
+  li
+    list-style: none
+    float: left
+    width: 20%
+    border: 2px solid #006ac6
+    border-top-width: 0
+    border-right-width: 0
+    border-left-width: 1px
+    &.active
+      border-width: 2px
+      border-bottom-color: white
+      border-top-color: #006ac6
+      a
+        margin-left: 0
+    a, a:visited, a:hover
+      font-size: 18px
+      background: $madworks-blue
+      +box-sizing(border-box)
+      color: #fff
+      display: block
+      padding: 10px
+      text-decoration: none
+
+    a:hover
+      background: #006ac6
+.campus
+  border: 2px solid #006ac6
+  border-top-width: 0
+  .tab
+    margin: -2px 0
+    +clearfix
+    min-height: 500px
+    text-align: left
+    padding: 16px
+    li
+      list-style: disc inside none
+  .big-link
+    display: block
+    width: 250px
+    margin: 16px auto
+    font-size: 36px

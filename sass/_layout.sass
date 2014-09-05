@@ -27,6 +27,8 @@ header
   .location
     float: left
     width: 180px
+    h1, h2
+      +text-shadow(none)
     h1
       color: $text-color
       font-weight: 100
@@ -34,6 +36,10 @@ header
       color: $light-text
       font-weight: 100
       font-size: 20px
+      text-transform: none
+    a:hover
+      text-decoration: none
+
 
 footer
   background: $dark-bg

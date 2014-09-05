@@ -17,6 +17,11 @@ html, body
   background: $dark-bg;
 }
 
+p {
+  font-family: "open-sans", sans-serif;
+
+}
+
 /* sorry mark */
 html {
   @include box-sizing(border-box);
@@ -44,10 +49,13 @@ a:hover { color:#333; text-decoration: underline;}
   }
 }
 
-h1 {
-  color: $madworks-blue;
-  font-size: 36px
+h1, h2 {
+    color: $dark-text;
+    text-transform: uppercase;
+    @include text-shadow(-2px 2px 0px #ddd);
 }
+h1 { font-size: 36px; }
+h2 { font-size: 28px; }
 
 p {
   margin: 8px 0 8px 0;
@@ -80,4 +88,17 @@ img {
 }
 .urp {
   color: $madworks-red;
+}
+
+.highlight {
+  background: rgba(255,255,255,0.9);
+  @include box-shadow(0 0 4px #ccc);
+  border: 1px solid #ccc;
+  padding: 20px;
+  h1,h2 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 30px;
+  }
 }
