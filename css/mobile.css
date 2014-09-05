@@ -66,86 +66,170 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 3, ../sass/_core.scss */
+/* line 17, ../../.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../.rvm/gems/ruby-1.9.3-p484/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* 
+  This should be generic style that help format content, i.e. body style, h1, etc 
+  For header/footer, look at _layout.scss 
+*/
+/* line 10, ../sass/_core.scss */
 html, body {
-  color: #333;
-  font-family: "faricy-new-web",sans-serif;
+  color: #545454;
+  font-family: "open-sans-condensed",sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.4;
 }
 
-/* line 12, ../sass/_core.scss */
+/* sorry mark */
+/* line 20, ../sass/_core.scss */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 23, ../sass/_core.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/* line 27, ../sass/_core.scss */
 strong {
   font-style: normal;
   font-weight: 700;
 }
 
-/* line 13, ../sass/_core.scss */
+/* line 28, ../sass/_core.scss */
 em {
   font-style: italic;
   font-weight: 400;
 }
 
-/* line 14, ../sass/_core.scss */
+/* line 29, ../sass/_core.scss */
 em strong, strong em {
   font-style: italic;
   font-weight: 700;
 }
 
-/* line 16, ../sass/_core.scss */
+/* line 31, ../sass/_core.scss */
 a, a:visited, a:hover {
   color: #009ddc;
 }
 
-/* line 17, ../sass/_core.scss */
+/* line 32, ../sass/_core.scss */
 a:hover {
   color: #333;
 }
 
-/* line 19, ../sass/_core.scss */
+/* line 34, ../sass/_core.scss */
 .small {
   font-size: 10px;
   line-height: 16px;
 }
 
-/* line 22, ../sass/_core.scss */
+/* line 37, ../sass/_core.scss */
 .address a {
   margin-right: 6px;
 }
 
-/* line 27, ../sass/_core.scss */
+/* line 42, ../sass/_core.scss */
 h1 {
   color: #009ddc;
   font-size: 36px;
 }
 
-/* line 32, ../sass/_core.scss */
+/* line 47, ../sass/_core.scss */
 p {
   margin: 8px 0 8px 0;
 }
 
-/* line 35, ../sass/_core.scss */
+/* line 50, ../sass/_core.scss */
 img {
   max-width: 100%;
 }
 
-/* line 39, ../sass/_core.scss */
+/* line 54, ../sass/_core.scss */
 .conduct {
   max-width: 800px;
   margin: 0 auto;
 }
-/* line 42, ../sass/_core.scss */
+/* line 57, ../sass/_core.scss */
 .conduct ul li {
   list-style: disc inside;
 }
 
-/* line 46, ../sass/_core.scss */
+/* line 61, ../sass/_core.scss */
 .campus-masthead {
   position: relative;
 }
-/* line 48, ../sass/_core.scss */
+/* line 63, ../sass/_core.scss */
 .campus-masthead h1 {
   padding: 0;
   margin: 0;
@@ -155,12 +239,12 @@ img {
   left: 32px;
 }
 
-/* line 58, ../sass/_core.scss */
+/* line 73, ../sass/_core.scss */
 .mad {
   color: #009ddc;
 }
 
-/* line 61, ../sass/_core.scss */
+/* line 76, ../sass/_core.scss */
 .urp {
   color: #b32216;
 }

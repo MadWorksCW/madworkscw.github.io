@@ -3,9 +3,8 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-@import "compass/reset";
-@import "compass/utilities/general/clearfix";
 @import "core";
+@import "layout";
 @import "members";
 .content
 {
@@ -14,97 +13,6 @@
 	@include clearfix;
 	position: relative;
 	padding-bottom: 150px;
-}
-
-.logo
-{
-	left:0;
-	position: relative;
-	text-align:center;
-	top:-150px;
-	width:100%;
-	margin-bottom: 32px;
-
-	img {height:112px;width:600px;}
-}
-.coming-soon
-{
-	display:none;
-	left: 0;
-	position: fixed;
-	text-align: center;
-	top: 140px;
-	width: 100%;
-
-	em
-	{
-		background:#009ddc;
-		border-radius:100px;
-		color:#fff;
-		display:block;
-		font-size:16px;
-		line-height:22px;
-		margin:0 auto;
-		padding:10px 20px;
-		width:350px;
-	}
-}
-.footer
-{
-	background:#ddd;
-	border-top:4px solid #ccc;
-	bottom:-150px;
-	left:0;
-	position:fixed;
-	width:100%;
-	z-index:20;
-	&.static {
-		position: static;
-   .twitter-link-wrapper {
-		  margin-top: 8px;
-		}
-	}
-}
-.address-wrapper
-{
-	border-right:2px solid #ccc;
-	box-sizing:border-box;
-	float:left;
-	width:50%;
-}
-.address
-{
-	padding:10px;
-}
-.twitter-link-wrapper
-{
-	float:left;
-	margin:38px 0 0;
-	text-align:center;
-	width:49%;
-
-	a, a:visited, a:hover
-	{
-		font-size:30px;
-		line-height:36px;
-		text-decoration:none;
-	}
-}
-.twitter-timeline-wrapper
-{
-	bottom:-500px;
-	position:fixed;
-	right:10px;
-	width:48%;
-	z-index:10;
-}
-.calendar-wrapper
-{
-	position: fixed;
-	bottom: -500px;
-	left: 10px;
-	width: 48%;
-	z-index: 10;
 }
 
 .hackathon {

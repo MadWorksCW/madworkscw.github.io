@@ -1,12 +1,27 @@
+@import "compass/reset";
+@import "compass/utilities/general/clearfix";
+@import "compass/css3";
 @import "variables";
+/* 
+  This should be generic style that help format content, i.e. body style, h1, etc 
+  For header/footer, look at _layout.scss 
+*/
 html, body
 {
-	color:#333;
-	font-family: "faricy-new-web",sans-serif;
+	color: $text-color;
+	font-family: "open-sans-condensed",sans-serif;
 	font-size:16px;
 	font-style:normal;
 	font-weight:400;
 	line-height:1.4;
+}
+
+/* sorry mark */
+html {
+  @include box-sizing(border-box);
+}
+*, *:before, *:after {
+  @include box-sizing(inherit);
 }
 
 strong {font-style:normal;font-weight:700;}

@@ -1,0 +1,40 @@
+header
+  +box-shadow(0 0 4px #333)
+  +box-sizing(border-box)
+  background: white
+  height: 140px
+  .header-wrap
+    margin: 0 auto
+    max-width: 1100px
+    padding: 40px
+    position: relative
+  .contact-tab
+    background: url('../images/contact-tab.png') no-repeat 0 0
+    color: white
+    padding: 4px 55px
+    position: absolute
+    right: 10px
+    top: 0
+    width: 210px
+    a
+      color: white
+      text-decoration: none
+      img
+        position: relative
+        top: 4px
+  .locations
+    +clearfix
+    float: right
+  .location
+    float: left
+    width: 170px
+    h1
+      color: $text-color
+      font-weight: 100
+    h2
+      color: $light-text
+      font-weight: 100
+
+footer
+  background: $dark-bg
+  height: 230px

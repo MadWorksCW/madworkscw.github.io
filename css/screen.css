@@ -67,86 +67,105 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 3, ../sass/_core.scss */
+/* 
+  This should be generic style that help format content, i.e. body style, h1, etc 
+  For header/footer, look at _layout.scss 
+*/
+/* line 10, ../sass/_core.scss */
 html, body {
-  color: #333;
-  font-family: "faricy-new-web",sans-serif;
+  color: #545454;
+  font-family: "open-sans-condensed",sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.4;
 }
 
-/* line 12, ../sass/_core.scss */
+/* sorry mark */
+/* line 20, ../sass/_core.scss */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 23, ../sass/_core.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/* line 27, ../sass/_core.scss */
 strong {
   font-style: normal;
   font-weight: 700;
 }
 
-/* line 13, ../sass/_core.scss */
+/* line 28, ../sass/_core.scss */
 em {
   font-style: italic;
   font-weight: 400;
 }
 
-/* line 14, ../sass/_core.scss */
+/* line 29, ../sass/_core.scss */
 em strong, strong em {
   font-style: italic;
   font-weight: 700;
 }
 
-/* line 16, ../sass/_core.scss */
+/* line 31, ../sass/_core.scss */
 a, a:visited, a:hover {
   color: #009ddc;
 }
 
-/* line 17, ../sass/_core.scss */
+/* line 32, ../sass/_core.scss */
 a:hover {
   color: #333;
 }
 
-/* line 19, ../sass/_core.scss */
+/* line 34, ../sass/_core.scss */
 .small {
   font-size: 10px;
   line-height: 16px;
 }
 
-/* line 22, ../sass/_core.scss */
+/* line 37, ../sass/_core.scss */
 .address a {
   margin-right: 6px;
 }
 
-/* line 27, ../sass/_core.scss */
+/* line 42, ../sass/_core.scss */
 h1 {
   color: #009ddc;
   font-size: 36px;
 }
 
-/* line 32, ../sass/_core.scss */
+/* line 47, ../sass/_core.scss */
 p {
   margin: 8px 0 8px 0;
 }
 
-/* line 35, ../sass/_core.scss */
+/* line 50, ../sass/_core.scss */
 img {
   max-width: 100%;
 }
 
-/* line 39, ../sass/_core.scss */
+/* line 54, ../sass/_core.scss */
 .conduct {
   max-width: 800px;
   margin: 0 auto;
 }
-/* line 42, ../sass/_core.scss */
+/* line 57, ../sass/_core.scss */
 .conduct ul li {
   list-style: disc inside;
 }
 
-/* line 46, ../sass/_core.scss */
+/* line 61, ../sass/_core.scss */
 .campus-masthead {
   position: relative;
 }
-/* line 48, ../sass/_core.scss */
+/* line 63, ../sass/_core.scss */
 .campus-masthead h1 {
   padding: 0;
   margin: 0;
@@ -156,14 +175,80 @@ img {
   left: 32px;
 }
 
-/* line 58, ../sass/_core.scss */
+/* line 73, ../sass/_core.scss */
 .mad {
   color: #009ddc;
 }
 
-/* line 61, ../sass/_core.scss */
+/* line 76, ../sass/_core.scss */
 .urp {
   color: #b32216;
+}
+
+/* line 1, ../sass/_layout.sass */
+header {
+  -webkit-box-shadow: 0 0 4px #333333;
+  -moz-box-shadow: 0 0 4px #333333;
+  box-shadow: 0 0 4px #333333;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: white;
+  height: 140px;
+}
+/* line 6, ../sass/_layout.sass */
+header .header-wrap {
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 40px;
+  position: relative;
+}
+/* line 11, ../sass/_layout.sass */
+header .contact-tab {
+  background: url("../images/contact-tab.png") no-repeat 0 0;
+  color: white;
+  padding: 4px 55px;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  width: 210px;
+}
+/* line 19, ../sass/_layout.sass */
+header .contact-tab a {
+  color: white;
+  text-decoration: none;
+}
+/* line 22, ../sass/_layout.sass */
+header .contact-tab a img {
+  position: relative;
+  top: 4px;
+}
+/* line 25, ../sass/_layout.sass */
+header .locations {
+  overflow: hidden;
+  *zoom: 1;
+  float: right;
+}
+/* line 28, ../sass/_layout.sass */
+header .location {
+  float: left;
+  width: 170px;
+}
+/* line 31, ../sass/_layout.sass */
+header .location h1 {
+  color: #545454;
+  font-weight: 100;
+}
+/* line 34, ../sass/_layout.sass */
+header .location h2 {
+  color: #bfbfbf;
+  font-weight: 100;
+}
+
+/* line 38, ../sass/_layout.sass */
+footer {
+  background: #232323;
+  height: 230px;
 }
 
 /* line 2, ../sass/_members.sass */
@@ -212,7 +297,7 @@ img {
   border-bottom: 1px solid #cccccc;
 }
 
-/* line 11, ../sass/screen.scss */
+/* line 10, ../sass/screen.scss */
 .content {
   max-width: 1100px;
   margin: 0 auto;
@@ -222,144 +307,43 @@ img {
   padding-bottom: 150px;
 }
 
-/* line 20, ../sass/screen.scss */
-.logo {
-  left: 0;
-  position: relative;
-  text-align: center;
-  top: -150px;
-  width: 100%;
-  margin-bottom: 32px;
-}
-/* line 28, ../sass/screen.scss */
-.logo img {
-  height: 112px;
-  width: 600px;
-}
-
-/* line 31, ../sass/screen.scss */
-.coming-soon {
-  display: none;
-  left: 0;
-  position: fixed;
-  text-align: center;
-  top: 140px;
-  width: 100%;
-}
-/* line 40, ../sass/screen.scss */
-.coming-soon em {
-  background: #009ddc;
-  border-radius: 100px;
-  color: #fff;
-  display: block;
-  font-size: 16px;
-  line-height: 22px;
-  margin: 0 auto;
-  padding: 10px 20px;
-  width: 350px;
-}
-
-/* line 53, ../sass/screen.scss */
-.footer {
-  background: #ddd;
-  border-top: 4px solid #ccc;
-  bottom: -150px;
-  left: 0;
-  position: fixed;
-  width: 100%;
-  z-index: 20;
-}
-/* line 61, ../sass/screen.scss */
-.footer.static {
-  position: static;
-}
-/* line 63, ../sass/screen.scss */
-.footer.static .twitter-link-wrapper {
-  margin-top: 8px;
-}
-
-/* line 69, ../sass/screen.scss */
-.address-wrapper {
-  border-right: 2px solid #ccc;
-  box-sizing: border-box;
-  float: left;
-  width: 50%;
-}
-
-/* line 76, ../sass/screen.scss */
-.address {
-  padding: 10px;
-}
-
-/* line 80, ../sass/screen.scss */
-.twitter-link-wrapper {
-  float: left;
-  margin: 38px 0 0;
-  text-align: center;
-  width: 49%;
-}
-/* line 87, ../sass/screen.scss */
-.twitter-link-wrapper a, .twitter-link-wrapper a:visited, .twitter-link-wrapper a:hover {
-  font-size: 30px;
-  line-height: 36px;
-  text-decoration: none;
-}
-
-/* line 94, ../sass/screen.scss */
-.twitter-timeline-wrapper {
-  bottom: -500px;
-  position: fixed;
-  right: 10px;
-  width: 48%;
-  z-index: 10;
-}
-
-/* line 102, ../sass/screen.scss */
-.calendar-wrapper {
-  position: fixed;
-  bottom: -500px;
-  left: 10px;
-  width: 48%;
-  z-index: 10;
-}
-
-/* line 110, ../sass/screen.scss */
+/* line 18, ../sass/screen.scss */
 .hackathon {
   margin-top: 32px;
   text-align: center;
 }
-/* line 113, ../sass/screen.scss */
+/* line 21, ../sass/screen.scss */
 .hackathon img {
   width: 400px;
   display: block;
   margin: 0 auto;
 }
-/* line 118, ../sass/screen.scss */
+/* line 26, ../sass/screen.scss */
 .hackathon a {
   font-size: 20px;
 }
 
-/* line 122, ../sass/screen.scss */
+/* line 30, ../sass/screen.scss */
 .campus {
   font-size: 18px;
   line-height: 1.4;
   font-family: Helvetica, Arial, sans-serif;
 }
-/* line 126, ../sass/screen.scss */
+/* line 34, ../sass/screen.scss */
 .campus h1 {
   margin-top: 20px;
 }
-/* line 129, ../sass/screen.scss */
+/* line 37, ../sass/screen.scss */
 .campus img.map {
   float: right;
 }
-/* line 132, ../sass/screen.scss */
+/* line 40, ../sass/screen.scss */
 .campus .apply-now {
   font-size: 36px;
   margin: 32px;
   text-align: center;
 }
-/* line 137, ../sass/screen.scss */
+/* line 45, ../sass/screen.scss */
 .campus a {
   color: #b32216;
 }
