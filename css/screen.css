@@ -79,93 +79,96 @@ html, body {
   font-style: normal;
   font-weight: 400;
   line-height: 1.4;
+  background: #232323;
 }
 
 /* sorry mark */
-/* line 20, ../sass/_core.scss */
+/* line 21, ../sass/_core.scss */
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 23, ../sass/_core.scss */
+/* line 24, ../sass/_core.scss */
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit;
 }
 
-/* line 27, ../sass/_core.scss */
+/* line 28, ../sass/_core.scss */
 strong {
   font-style: normal;
   font-weight: 700;
 }
 
-/* line 28, ../sass/_core.scss */
+/* line 29, ../sass/_core.scss */
 em {
   font-style: italic;
   font-weight: 400;
 }
 
-/* line 29, ../sass/_core.scss */
+/* line 30, ../sass/_core.scss */
 em strong, strong em {
   font-style: italic;
   font-weight: 700;
 }
 
-/* line 31, ../sass/_core.scss */
+/* line 32, ../sass/_core.scss */
 a, a:visited, a:hover {
   color: #009ddc;
+  text-decoration: none;
 }
 
-/* line 32, ../sass/_core.scss */
+/* line 33, ../sass/_core.scss */
 a:hover {
   color: #333;
+  text-decoration: underline;
 }
 
-/* line 34, ../sass/_core.scss */
+/* line 35, ../sass/_core.scss */
 .small {
   font-size: 10px;
   line-height: 16px;
 }
 
-/* line 37, ../sass/_core.scss */
+/* line 38, ../sass/_core.scss */
 .address a {
   margin-right: 6px;
 }
 
-/* line 42, ../sass/_core.scss */
+/* line 43, ../sass/_core.scss */
 h1 {
   color: #009ddc;
   font-size: 36px;
 }
 
-/* line 47, ../sass/_core.scss */
+/* line 48, ../sass/_core.scss */
 p {
   margin: 8px 0 8px 0;
 }
 
-/* line 50, ../sass/_core.scss */
+/* line 51, ../sass/_core.scss */
 img {
   max-width: 100%;
 }
 
-/* line 54, ../sass/_core.scss */
+/* line 55, ../sass/_core.scss */
 .conduct {
   max-width: 800px;
   margin: 0 auto;
 }
-/* line 57, ../sass/_core.scss */
+/* line 58, ../sass/_core.scss */
 .conduct ul li {
   list-style: disc inside;
 }
 
-/* line 61, ../sass/_core.scss */
+/* line 62, ../sass/_core.scss */
 .campus-masthead {
   position: relative;
 }
-/* line 63, ../sass/_core.scss */
+/* line 64, ../sass/_core.scss */
 .campus-masthead h1 {
   padding: 0;
   margin: 0;
@@ -175,28 +178,30 @@ img {
   left: 32px;
 }
 
-/* line 73, ../sass/_core.scss */
+/* line 74, ../sass/_core.scss */
 .mad {
   color: #009ddc;
 }
 
-/* line 76, ../sass/_core.scss */
+/* line 77, ../sass/_core.scss */
 .urp {
   color: #b32216;
 }
 
 /* line 1, ../sass/_layout.sass */
 header {
-  -webkit-box-shadow: 0 0 4px #333333;
-  -moz-box-shadow: 0 0 4px #333333;
-  box-shadow: 0 0 4px #333333;
+  -webkit-box-shadow: inset 0 -2px 2px -2px #333333;
+  -moz-box-shadow: inset 0 -2px 2px -2px #333333;
+  box-shadow: inset 0 -2px 2px -2px #333333;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  overflow: hidden;
+  *zoom: 1;
   background: white;
   min-height: 140px;
 }
-/* line 6, ../sass/_layout.sass */
+/* line 7, ../sass/_layout.sass */
 header .contact-tab {
   background: url("../images/contact-tab.png") no-repeat 0 0;
   color: white;
@@ -206,81 +211,79 @@ header .contact-tab {
   top: 0;
   width: 210px;
 }
-/* line 14, ../sass/_layout.sass */
+/* line 15, ../sass/_layout.sass */
 header .contact-tab a {
   color: white;
   text-decoration: none;
 }
-/* line 17, ../sass/_layout.sass */
+/* line 18, ../sass/_layout.sass */
 header .contact-tab a img {
   position: relative;
   top: 4px;
 }
-/* line 20, ../sass/_layout.sass */
+/* line 21, ../sass/_layout.sass */
 header img.logo {
   max-width: 40%;
   float: left;
 }
-/* line 23, ../sass/_layout.sass */
+/* line 24, ../sass/_layout.sass */
 header .locations {
   overflow: hidden;
   *zoom: 1;
   float: right;
 }
-/* line 26, ../sass/_layout.sass */
+/* line 27, ../sass/_layout.sass */
 header .location {
   float: left;
-  width: 150px;
+  width: 180px;
 }
-/* line 29, ../sass/_layout.sass */
+/* line 30, ../sass/_layout.sass */
 header .location h1 {
   color: #545454;
   font-weight: 100;
 }
-/* line 32, ../sass/_layout.sass */
+/* line 33, ../sass/_layout.sass */
 header .location h2 {
   color: #bfbfbf;
   font-weight: 100;
+  font-size: 20px;
 }
 
-/* line 36, ../sass/_layout.sass */
+/* line 38, ../sass/_layout.sass */
 footer {
   background: #232323;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 39, ../sass/_layout.sass */
+/* line 41, ../sass/_layout.sass */
 footer .wrap {
   padding: 20px;
 }
-/* line 41, ../sass/_layout.sass */
+/* line 43, ../sass/_layout.sass */
 footer section {
   float: left;
-  width: 200px;
-  padding: 8px;
-  margin: 8px;
+  width: 25%;
+  padding: 16px;
 }
-/* line 46, ../sass/_layout.sass */
+/* line 47, ../sass/_layout.sass */
 footer section h3 {
   color: white;
 }
-/* line 48, ../sass/_layout.sass */
+/* line 49, ../sass/_layout.sass */
 footer section a, footer section a:visited {
   color: #545454;
-  text-decoration: none;
 }
 /* line 51, ../sass/_layout.sass */
 footer section a:hover, footer section a:visited:hover {
-  text-decoration: underline;
   color: #009ddc;
 }
-/* line 54, ../sass/_layout.sass */
+/* line 53, ../sass/_layout.sass */
 footer section i.fa {
   color: #009ddc;
   font-size: 20px;
 }
 
-/* line 60, ../sass/_layout.sass */
+/* line 57, ../sass/_layout.sass */
 .wrap {
   margin: 0 auto;
   max-width: 1100px;
@@ -334,14 +337,64 @@ footer section i.fa {
   border-bottom: 1px solid #cccccc;
 }
 
-/* line 10, ../sass/screen.scss */
+/* line 1, ../sass/_home.sass */
+.jumbotron {
+  background: url("../images/jumbotron.png");
+  background-size: cover;
+  height: 440px;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 6, ../sass/_home.sass */
+.jumbotron .highlight {
+  background: rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow: 0 0 4px #cccccc;
+  -moz-box-shadow: 0 0 4px #cccccc;
+  box-shadow: 0 0 4px #cccccc;
+  border: 1px solid #cccccc;
+  height: 180px;
+  margin: 100px auto;
+  max-width: 80%;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  width: 680px;
+}
+/* line 17, ../sass/_home.sass */
+.jumbotron .highlight h1 {
+  color: #3f3f3f;
+  text-transform: uppercase;
+  text-shadow: -2px 2px 2px #ababab;
+  font-size: 48px;
+}
+/* line 22, ../sass/_home.sass */
+.jumbotron .highlight h2 {
+  margin-top: 8px;
+  font-size: 30px;
+}
+/* line 25, ../sass/_home.sass */
+.jumbotron .highlight a.action-button {
+  font-size: 20px;
+  display: block;
+  width: 150px;
+  margin: 20px auto;
+  background: #009ddc;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  padding: 8px;
+  color: white;
+}
+
+/* line 11, ../sass/screen.scss */
 .content {
   max-width: 1100px;
   margin: 0 auto;
   overflow: hidden;
   *zoom: 1;
   position: relative;
-  padding-bottom: 150px;
 }
 
 /* line 18, ../sass/screen.scss */

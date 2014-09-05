@@ -6,13 +6,13 @@
 @import "core";
 @import "layout";
 @import "members";
+@import "home";
 .content
 {
 	max-width: 1100px;
 	margin: 0 auto;
 	@include clearfix;
 	position: relative;
-	padding-bottom: 150px;
 }
 
 .hackathon {

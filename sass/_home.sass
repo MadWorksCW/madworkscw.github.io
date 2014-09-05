@@ -1,0 +1,33 @@
+.jumbotron
+  background: url("../images/jumbotron.png")
+  background-size: cover
+  height: 440px
+  +clearfix
+  .highlight
+    background: rgba(255,255,255,0.8)
+    +box-shadow(0 0 4px #ccc)
+    border: 1px solid #ccc
+    height: 180px
+    margin: 100px auto
+    max-width: 80%
+    padding: 20px
+    position: relative
+    text-align: center
+    width: 680px
+    h1
+      color: $dark-text
+      text-transform: uppercase
+      +text-shadow(-2px 2px 2px #ababab)
+      font-size: 48px
+    h2
+      margin-top: 8px
+      font-size: 30px
+    a.action-button
+      font-size: 20px
+      display: block
+      width: 150px
+      margin: 20px auto
+      background: $madworks-blue
+      +border-radius(8px)
+      padding: 8px
+      color: white 
