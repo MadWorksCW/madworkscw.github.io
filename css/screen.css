@@ -388,12 +388,13 @@ footer section i.fa {
 /* line 1, ../sass/_home.sass */
 .jumbotron {
   background-color: #009ddc;
-  background-size: cover;
+  background-size: contain;
   height: 440px;
+  background-attachment: fixed;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 6, ../sass/_home.sass */
+/* line 7, ../sass/_home.sass */
 .jumbotron .highlight {
   height: 180px;
   margin: 100px auto;
@@ -402,12 +403,12 @@ footer section i.fa {
   text-align: center;
   width: 680px;
 }
-/* line 13, ../sass/_home.sass */
+/* line 14, ../sass/_home.sass */
 .jumbotron .highlight h3 {
   margin-top: 8px;
   font-size: 30px;
 }
-/* line 16, ../sass/_home.sass */
+/* line 17, ../sass/_home.sass */
 .jumbotron .highlight a.action-button {
   font-size: 20px;
   display: block;
