@@ -389,13 +389,14 @@ footer section i.fa {
 .jumbotron {
   background-color: #009ddc;
   background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
   height: 440px;
   background-attachment: fixed;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 8, ../sass/_home.sass */
+/* line 9, ../sass/_home.sass */
 .jumbotron .highlight {
   height: 180px;
   margin: 100px auto;
@@ -404,12 +405,12 @@ footer section i.fa {
   text-align: center;
   width: 680px;
 }
-/* line 15, ../sass/_home.sass */
+/* line 16, ../sass/_home.sass */
 .jumbotron .highlight h3 {
   margin-top: 8px;
   font-size: 30px;
 }
-/* line 18, ../sass/_home.sass */
+/* line 19, ../sass/_home.sass */
 .jumbotron .highlight a.action-button {
   font-size: 20px;
   display: block;
@@ -452,32 +453,32 @@ footer section i.fa {
   text-align: center;
 }
 
-/* line 1, ../sass/_campus.sass */
+/* line 2, ../sass/_campus.sass */
 .sub-nav-tabs {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 3, ../sass/_campus.sass */
+/* line 4, ../sass/_campus.sass */
 .sub-nav-tabs li {
   list-style: none;
   float: left;
   width: 20%;
-  border: 2px solid #006ac6;
+  border: 2px solid #444444;
   border-top-width: 0;
   border-right-width: 0;
   border-left-width: 1px;
 }
-/* line 11, ../sass/_campus.sass */
+/* line 13, ../sass/_campus.sass */
 .sub-nav-tabs li.active {
   border-width: 2px;
   border-bottom-color: white;
-  border-top-color: #006ac6;
+  border-top-color: #444444;
 }
-/* line 15, ../sass/_campus.sass */
+/* line 17, ../sass/_campus.sass */
 .sub-nav-tabs li.active a {
   margin-left: 0;
 }
-/* line 17, ../sass/_campus.sass */
+/* line 19, ../sass/_campus.sass */
 .sub-nav-tabs li a, .sub-nav-tabs li a:visited, .sub-nav-tabs li a:hover {
   font-size: 18px;
   background: #009ddc;
@@ -489,17 +490,17 @@ footer section i.fa {
   padding: 10px;
   text-decoration: none;
 }
-/* line 26, ../sass/_campus.sass */
+/* line 28, ../sass/_campus.sass */
 .sub-nav-tabs li a:hover {
   background: #006ac6;
 }
 
-/* line 28, ../sass/_campus.sass */
+/* line 30, ../sass/_campus.sass */
 .campus {
-  border: 2px solid #006ac6;
+  border: 2px solid #444444;
   border-top-width: 0;
 }
-/* line 31, ../sass/_campus.sass */
+/* line 33, ../sass/_campus.sass */
 .campus .tab {
   margin: -2px 0;
   overflow: hidden;
@@ -508,11 +509,11 @@ footer section i.fa {
   text-align: left;
   padding: 16px;
 }
-/* line 37, ../sass/_campus.sass */
+/* line 39, ../sass/_campus.sass */
 .campus .tab li {
   list-style: disc inside none;
 }
-/* line 39, ../sass/_campus.sass */
+/* line 41, ../sass/_campus.sass */
 .campus .big-link {
   display: block;
   width: 250px;

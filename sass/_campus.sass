@@ -1,17 +1,19 @@
+$tab-border-color: #444
 .sub-nav-tabs
   +clearfix
   li
+
     list-style: none
     float: left
     width: 20%
-    border: 2px solid #006ac6
+    border: 2px solid $tab-border-color
     border-top-width: 0
     border-right-width: 0
     border-left-width: 1px
     &.active
       border-width: 2px
       border-bottom-color: white
-      border-top-color: #006ac6
+      border-top-color: $tab-border-color
       a
         margin-left: 0
     a, a:visited, a:hover
@@ -26,7 +28,7 @@
     a:hover
       background: #006ac6
 .campus
-  border: 2px solid #006ac6
+  border: 2px solid $tab-border-color
   border-top-width: 0
   .tab
     margin: -2px 0
