@@ -73,8 +73,50 @@ header {
 	margin:10px auto;
 	max-width:500px;
 }
+/*  Campus styles */
 .campus-masthead h1 {
 	top: 0px;
 	left: 4px;
 	font-size: 28px
+}
+
+footer {
+	section {
+		float: none;
+		width: 100%;
+	}
+}
+
+.sub-nav-tabs {
+  display: none;
+}
+.campus {
+	.portfolio .company {
+		border-top: 1px solid $madworks-blue;
+		padding-top: 8px;
+		margin-top: 8px;
+		h4 {
+			font-size: 28px;
+		}
+		img {
+			max-height: 30px;
+			float: right;
+		}
+	}
+	.tab {
+		border-bottom: 2px solid #333;
+		padding: 16px 0;
+		h2 {
+			font-size: 20px;
+			margin-bottom: 8px;
+		}
+	}
+	.application-link {
+		display: block;
+		font-size: 20px;
+	}
+	iframe {
+		display: none;
+	}
+
 }

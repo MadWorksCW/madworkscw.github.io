@@ -31,6 +31,7 @@ $tab-border-color: #444
   border: 2px solid $tab-border-color
   border-top-width: 0
   .tab
+    display: none
     margin: -2px 0
     +clearfix
     min-height: 500px
@@ -38,8 +39,30 @@ $tab-border-color: #444
     padding: 16px
     li
       list-style: disc inside none
+    &.active 
+      display: block
   .big-link
     display: block
     width: 250px
     margin: 16px auto
     font-size: 36px
+  .application-link
+    display: none
+
+.portfolio
+  .company
+    float: left
+    width: 40%
+    margin: 32px
+    height: 220px
+    padding: 16px
+    border: 1px solid $madworks-blue
+    img
+      max-height: 75px
+      max-width: 130px
+      float: right
+      margin: 6px
+    p
+      font-size: 13px
+      font-style: italic
+      line-height: 1.4

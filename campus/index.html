@@ -14,7 +14,7 @@
 </ul>
 
 <div class="campus">
-  <div class="tab" data-tab="about">
+  <div class="tab active" data-tab="about">
     <h2>About Madworks at Campus</h2>
     <p>
     Madworks is a seed accelerator operating in the heart of the University of Wisconsin- Madison Campus that provides grants, mentors, lean start-up, structure, access to next round finance, and much, much more to selected early stage companies.
@@ -27,15 +27,16 @@
     <p>
     Madworks accepts early stage companies created by UW Madison faculty, staff, alumni and students as well as early stage companies from the greater Madison community.
     </p>
-    <h2>APPLICATIONS FOR FALL 2014 PROGRAM DUE SEPTEMBER 19</h2>
+    <h2 class="deadline">APPLICATIONS FOR FALL 2014 CLOSE SEPTEMBER 19</h1>
   </div>
-  <div class="tab" data-tab="companies" style="display:none">
-    <h2>Portfolio Companies</h2>
-    <p>
-      The first class of Madworks Accelerator included 11 companies.  More information about those companies is on it's way.
-    </p>
+  <div class="tab" data-tab="apply" >
+    <h2 class="deadline">APPLICATIONS FOR FALL 2014 PROGRAM DUE SEPTEMBER 19</h2>
+    <div class="application-link">
+      <a href="http://madworks-accelerator.herokuapp.com/">Click here to apply online now</a>
+    </div>
+    <iframe src="http://madworks-accelerator.herokuapp.com/" width="100%" height=2800></iframe>
   </div>
-  <div class="tab" data-tab="schedule" style="display:none">
+  <div class="tab" data-tab="schedule">
     <h2>Schedule for fall 2014</h2>
     <p>
       Madworks will offer a fall program starting 9/30/14 and a spring program beginning in February of 2015.  Madworks will also offer a full time program during the summer of 2015.
@@ -63,11 +64,72 @@
       <li>Part time program, participating teams are expected to spend 20 hours per week</li>
     </ul>
   </div>
-  <div class="tab" data-tab="apply" style="display:none">
-    <iframe src="http://madworks-accelerator.herokuapp.com/" width="100%" height=2800></iframe>
-    
+
+  <div class="tab" data-tab="companies">
+    <div class="portfolio">
+      <h2>Portfolio Companies</h2>
+      <div class="company">
+        <img src="logos/900dpi.png">
+        <h4><a href="http://www.900dpi.com">900dpi</a></h4>
+        <p>
+          900dpi is the easiest way for web designers and developers to create and maintain websites using the tools they already know.
+        </p>
+      </div>
+      <div class="company">
+        <img src="logos/clemetric.png">
+        <h4><a href="http://www.clemetric.com">CleMetric</a></h4>
+        <p>
+          CleMetric is a software company that combines the power of Big Data, stream computing, machine learning, data management, and visual discovery to deliver advanced predictive data analytics solutions for medical research, healthcare operations and health insurance.
+        </p>
+      </div>
+
+      <div class="company">
+        <img src="logos/confplus.jpg">
+        <h4><a href="http://www.confplusapp.com">ConfPlus</a></h4>
+        <p>
+          ConfPlus provides mobile solution that distributes event information, facilities communication and networking to improve the overall participating experience at professional events. The interactive and trackable mobile advertisement can help event sponsors effectively showcase their brand, generate leads, and promote sales.
+        </p>
+      </div>
+
+      <div class="company">
+        <h4>ivMD</h4>
+        <p>
+          iV̇MD makes patient management software with a mission to improve the lives of patients and those that care for them. Our first product, the Digital Intern, empowers Organ Procurement Coordinators, nursing, and respiratory care staff to effectively care for organ donors increasing the number of organs available for transplant while decreasing the amount of physician time required to provide optimal care for donors. 
+        </p>
+      </div>
+
+      <div class="company">
+        <img src="logos/smartuq.png">
+        <h4><a href="http//www.smartuq.com">SmartUQ</a></h4>
+        <p>
+          SmartUQ brings leading-edge analytics to accelerate simulation, reducing time and costs for industries that make simulation-based decisions. Learn more about the patent-pending technology at http://www.smartuq.com/.
+        </p>
+      </div>
+
+      <div class="company">
+        <h4><a href="">STELA Medical</a></h4>
+        <p>
+          STELA Medical will provide medical technologies and services aimed at improving patient safety, reducing healthcare costs, and fulfilling the clinical needs of end-users: Anesthesiologists, dentists, and otolaryngologists (ENTs). STELA Medical's first device, STELA, fulfills the clinical need for a universal topical anesthetic applicator that interfaces with all airway visualization technologies.
+        </p>
+      </div>
+
+      <div class="company">
+        <img src="logos/voxdel.png">
+        <h4><a href="">Voxdel</a></h4>
+        <p>The only solution that allows anyone to be a data scientist.</p>
+      </div>
+
+      <div class="company">
+        <img src="logos/zuntik.png">
+        <h4><a href="http://zuntik.com">Zuntik</a></h4>
+        <p>
+          Zuntik is a socially and professionally driven calendar tool that is changing to way that people find and share their events. Through our web and mobile platforms, we give users the ability to constantly have access to the events that they care most about.
+        </p>
+      </div>
+
+    </div>
   </div>
-  <div class="tab" data-tab="team" style="display:none">
+  <div class="tab" data-tab="team">
     <h2>Meet the Team</h2>
     <p>The responsibilities of MWC’s management team is divided into four areas.   
 
@@ -86,10 +148,9 @@
 <script>
 $('ul.sub-nav-tabs').on('click', 'a', function(ev) {
   $li = $(ev.target).closest('li');
-  $('ul.sub-nav-tabs li').removeClass('active');
+  $('ul.sub-nav-tabs li, .tab').removeClass('active');
   $li.addClass("active");
   var tab = $li.data('tab')
-  $('.content .tab').hide()
-  $('.content').find(".tab[data-tab=" + tab + "]").show()
+  $('.content').find(".tab[data-tab=" + tab + "]").addClass("active")
 });
 </script>

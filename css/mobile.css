@@ -291,6 +291,12 @@ img {
   font-size: 30px;
 }
 
+/* line 106, ../sass/_core.scss */
+.deadline {
+  color: firebrick;
+  text-align: center;
+}
+
 /* line 1, ../sass/_layout.sass */
 header {
   -webkit-box-shadow: inset 0 -4px 2px -2px #cccccc;
@@ -475,9 +481,56 @@ header .locations, header .location, header img.logo {
   max-width: 500px;
 }
 
-/* line 76, ../sass/mobile.scss */
+/*  Campus styles */
+/* line 77, ../sass/mobile.scss */
 .campus-masthead h1 {
   top: 0px;
   left: 4px;
   font-size: 28px;
+}
+
+/* line 84, ../sass/mobile.scss */
+footer section {
+  float: none;
+  width: 100%;
+}
+
+/* line 90, ../sass/mobile.scss */
+.sub-nav-tabs {
+  display: none;
+}
+
+/* line 94, ../sass/mobile.scss */
+.campus .portfolio .company {
+  border-top: 1px solid #009ddc;
+  padding-top: 8px;
+  margin-top: 8px;
+}
+/* line 98, ../sass/mobile.scss */
+.campus .portfolio .company h4 {
+  font-size: 28px;
+}
+/* line 101, ../sass/mobile.scss */
+.campus .portfolio .company img {
+  max-height: 30px;
+  float: right;
+}
+/* line 106, ../sass/mobile.scss */
+.campus .tab {
+  border-bottom: 2px solid #333;
+  padding: 16px 0;
+}
+/* line 109, ../sass/mobile.scss */
+.campus .tab h2 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+/* line 114, ../sass/mobile.scss */
+.campus .application-link {
+  display: block;
+  font-size: 20px;
+}
+/* line 118, ../sass/mobile.scss */
+.campus iframe {
+  display: none;
 }

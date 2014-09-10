@@ -227,6 +227,12 @@ img {
   font-size: 30px;
 }
 
+/* line 106, ../sass/_core.scss */
+.deadline {
+  color: firebrick;
+  text-align: center;
+}
+
 /* line 1, ../sass/_layout.sass */
 header {
   -webkit-box-shadow: inset 0 -4px 2px -2px #cccccc;
@@ -387,7 +393,6 @@ footer section i.fa {
 
 /* line 1, ../sass/_home.sass */
 .jumbotron {
-  background-color: #009ddc;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -502,6 +507,7 @@ footer section i.fa {
 }
 /* line 33, ../sass/_campus.sass */
 .campus .tab {
+  display: none;
   margin: -2px 0;
   overflow: hidden;
   *zoom: 1;
@@ -509,16 +515,47 @@ footer section i.fa {
   text-align: left;
   padding: 16px;
 }
-/* line 39, ../sass/_campus.sass */
+/* line 40, ../sass/_campus.sass */
 .campus .tab li {
   list-style: disc inside none;
 }
-/* line 41, ../sass/_campus.sass */
+/* line 42, ../sass/_campus.sass */
+.campus .tab.active {
+  display: block;
+}
+/* line 44, ../sass/_campus.sass */
 .campus .big-link {
   display: block;
   width: 250px;
   margin: 16px auto;
   font-size: 36px;
+}
+/* line 49, ../sass/_campus.sass */
+.campus .application-link {
+  display: none;
+}
+
+/* line 53, ../sass/_campus.sass */
+.portfolio .company {
+  float: left;
+  width: 40%;
+  margin: 32px;
+  height: 220px;
+  padding: 16px;
+  border: 1px solid #009ddc;
+}
+/* line 60, ../sass/_campus.sass */
+.portfolio .company img {
+  max-height: 75px;
+  max-width: 130px;
+  float: right;
+  margin: 6px;
+}
+/* line 65, ../sass/_campus.sass */
+.portfolio .company p {
+  font-size: 13px;
+  font-style: italic;
+  line-height: 1.4;
 }
 
 /* line 13, ../sass/screen.scss */
