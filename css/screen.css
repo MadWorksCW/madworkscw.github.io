@@ -82,119 +82,123 @@ html, body {
 }
 
 /* line 20, ../sass/_core.sass */
-p, li {
+p {
   font-family: "open-sans", sans-serif;
 }
 
 /* line 23, ../sass/_core.sass */
-ul {
+ul.list {
   list-style: disc outside;
   text-align: left;
   margin-left: 10%;
 }
+/* line 27, ../sass/_core.sass */
+ul.list li {
+  font-family: "open-sans", sans-serif;
+}
 
-/* line 29, ../sass/_core.sass */
+/* line 31, ../sass/_core.sass */
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 32, ../sass/_core.sass */
+/* line 34, ../sass/_core.sass */
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit;
 }
 
-/* line 35, ../sass/_core.sass */
+/* line 37, ../sass/_core.sass */
 .content {
   background: white;
 }
 
-/* line 38, ../sass/_core.sass */
+/* line 40, ../sass/_core.sass */
 strong {
   font-style: normal;
   font-weight: 700;
 }
 
-/* line 42, ../sass/_core.sass */
+/* line 44, ../sass/_core.sass */
 em {
   font-style: italic;
   font-weight: 400;
 }
 
-/* line 46, ../sass/_core.sass */
+/* line 48, ../sass/_core.sass */
 em strong, strong em {
   font-style: italic;
   font-weight: 700;
 }
 
-/* line 50, ../sass/_core.sass */
+/* line 52, ../sass/_core.sass */
 a, a:visited, a:hover {
   color: #009ddc;
   text-decoration: none;
 }
 
-/* line 54, ../sass/_core.sass */
+/* line 56, ../sass/_core.sass */
 a:hover {
   color: #333333;
   text-decoration: underline;
 }
 
-/* line 58, ../sass/_core.sass */
+/* line 60, ../sass/_core.sass */
 .small {
   font-size: 10px;
   line-height: 16px;
 }
 
-/* line 63, ../sass/_core.sass */
+/* line 65, ../sass/_core.sass */
 .address a {
   margin-right: 6px;
 }
 
-/* line 66, ../sass/_core.sass */
+/* line 68, ../sass/_core.sass */
 h1, h2 {
   color: #3f3f3f;
   text-transform: uppercase;
   text-shadow: -2px 2px 0px #dddddd;
 }
 
-/* line 71, ../sass/_core.sass */
+/* line 73, ../sass/_core.sass */
 h1 {
   font-size: 36px;
 }
 
-/* line 74, ../sass/_core.sass */
+/* line 76, ../sass/_core.sass */
 h2 {
   font-size: 28px;
 }
 
-/* line 77, ../sass/_core.sass */
+/* line 79, ../sass/_core.sass */
 p {
   margin: 8px 0 8px 0;
 }
 
-/* line 80, ../sass/_core.sass */
+/* line 82, ../sass/_core.sass */
 img {
   max-width: 100%;
 }
 
-/* line 83, ../sass/_core.sass */
+/* line 85, ../sass/_core.sass */
 .conduct {
   max-width: 800px;
   margin: 0 auto;
 }
-/* line 86, ../sass/_core.sass */
+/* line 88, ../sass/_core.sass */
 .conduct ul li {
   list-style: disc inside;
 }
 
-/* line 89, ../sass/_core.sass */
+/* line 91, ../sass/_core.sass */
 .campus-masthead {
   position: relative;
 }
-/* line 91, ../sass/_core.sass */
+/* line 93, ../sass/_core.sass */
 .campus-masthead h1 {
   padding: 0;
   margin: 0;
@@ -204,17 +208,17 @@ img {
   left: 32px;
 }
 
-/* line 99, ../sass/_core.sass */
+/* line 101, ../sass/_core.sass */
 .mad {
   color: #009ddc;
 }
 
-/* line 102, ../sass/_core.sass */
+/* line 104, ../sass/_core.sass */
 .urp {
   color: #b32216;
 }
 
-/* line 105, ../sass/_core.sass */
+/* line 107, ../sass/_core.sass */
 .highlight {
   background: rgba(255, 255, 255, 0.8);
   -webkit-box-shadow: 0 0 4px #cccccc;
@@ -223,36 +227,36 @@ img {
   border: 1px solid #cccccc;
   padding: 20px;
 }
-/* line 110, ../sass/_core.sass */
+/* line 112, ../sass/_core.sass */
 .highlight h1, .highlight h2 {
   font-size: 48px;
 }
-/* line 112, ../sass/_core.sass */
+/* line 114, ../sass/_core.sass */
 .highlight h2 {
   font-size: 30px;
 }
 
-/* line 115, ../sass/_core.sass */
+/* line 117, ../sass/_core.sass */
 .deadline {
   color: firebrick;
   text-align: center;
 }
 
-/* line 120, ../sass/_core.sass */
+/* line 122, ../sass/_core.sass */
 table {
   width: 100%;
   font-size: 18px;
 }
-/* line 123, ../sass/_core.sass */
+/* line 125, ../sass/_core.sass */
 table th {
   font-weight: bold;
   border-bottom: 1px solid #009ddc;
 }
-/* line 126, ../sass/_core.sass */
+/* line 128, ../sass/_core.sass */
 table tr:nth-child(2n+1) {
   background-color: #dcf5ff;
 }
-/* line 128, ../sass/_core.sass */
+/* line 130, ../sass/_core.sass */
 table tr:first-child {
   background-color: transparent;
 }
