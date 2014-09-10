@@ -131,14 +131,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* 
-  This should be generic style that help format content, i.e. body style, h1, etc 
-  For header/footer, look at _layout.scss 
-*/
-/* line 10, ../sass/_core.scss */
+/* This should be generic style that help format content, i.e. body style, h1, etc 
+ * For header/footer, look at _layout.scss
+ */
+/* line 11, ../sass/_core.sass */
 html, body {
   color: #545454;
-  font-family: "open-sans-condensed",sans-serif;
+  font-family: "open-sans-condensed", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -146,114 +145,120 @@ html, body {
   background: #232323;
 }
 
-/* line 20, ../sass/_core.scss */
-p {
+/* line 20, ../sass/_core.sass */
+p, li {
   font-family: "open-sans", sans-serif;
 }
 
-/* sorry mark */
-/* line 26, ../sass/_core.scss */
+/* line 23, ../sass/_core.sass */
+ul {
+  list-style: disc outside;
+  text-align: left;
+  margin-left: 10%;
+}
+
+/* line 29, ../sass/_core.sass */
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 29, ../sass/_core.scss */
+/* line 32, ../sass/_core.sass */
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit;
 }
 
-/* line 33, ../sass/_core.scss */
+/* line 35, ../sass/_core.sass */
 .content {
   background: white;
 }
 
-/* line 37, ../sass/_core.scss */
+/* line 38, ../sass/_core.sass */
 strong {
   font-style: normal;
   font-weight: 700;
 }
 
-/* line 38, ../sass/_core.scss */
+/* line 42, ../sass/_core.sass */
 em {
   font-style: italic;
   font-weight: 400;
 }
 
-/* line 39, ../sass/_core.scss */
+/* line 46, ../sass/_core.sass */
 em strong, strong em {
   font-style: italic;
   font-weight: 700;
 }
 
-/* line 41, ../sass/_core.scss */
+/* line 50, ../sass/_core.sass */
 a, a:visited, a:hover {
   color: #009ddc;
   text-decoration: none;
 }
 
-/* line 42, ../sass/_core.scss */
+/* line 54, ../sass/_core.sass */
 a:hover {
-  color: #333;
+  color: #333333;
   text-decoration: underline;
 }
 
-/* line 44, ../sass/_core.scss */
+/* line 58, ../sass/_core.sass */
 .small {
   font-size: 10px;
   line-height: 16px;
 }
 
-/* line 47, ../sass/_core.scss */
+/* line 63, ../sass/_core.sass */
 .address a {
   margin-right: 6px;
 }
 
-/* line 52, ../sass/_core.scss */
+/* line 66, ../sass/_core.sass */
 h1, h2 {
   color: #3f3f3f;
   text-transform: uppercase;
   text-shadow: -2px 2px 0px #dddddd;
 }
 
-/* line 57, ../sass/_core.scss */
+/* line 71, ../sass/_core.sass */
 h1 {
   font-size: 36px;
 }
 
-/* line 58, ../sass/_core.scss */
+/* line 74, ../sass/_core.sass */
 h2 {
   font-size: 28px;
 }
 
-/* line 60, ../sass/_core.scss */
+/* line 77, ../sass/_core.sass */
 p {
   margin: 8px 0 8px 0;
 }
 
-/* line 63, ../sass/_core.scss */
+/* line 80, ../sass/_core.sass */
 img {
   max-width: 100%;
 }
 
-/* line 67, ../sass/_core.scss */
+/* line 83, ../sass/_core.sass */
 .conduct {
   max-width: 800px;
   margin: 0 auto;
 }
-/* line 70, ../sass/_core.scss */
+/* line 86, ../sass/_core.sass */
 .conduct ul li {
   list-style: disc inside;
 }
 
-/* line 74, ../sass/_core.scss */
+/* line 89, ../sass/_core.sass */
 .campus-masthead {
   position: relative;
 }
-/* line 76, ../sass/_core.scss */
+/* line 91, ../sass/_core.sass */
 .campus-masthead h1 {
   padding: 0;
   margin: 0;
@@ -263,38 +268,57 @@ img {
   left: 32px;
 }
 
-/* line 86, ../sass/_core.scss */
+/* line 99, ../sass/_core.sass */
 .mad {
   color: #009ddc;
 }
 
-/* line 89, ../sass/_core.scss */
+/* line 102, ../sass/_core.sass */
 .urp {
   color: #b32216;
 }
 
-/* line 93, ../sass/_core.scss */
+/* line 105, ../sass/_core.sass */
 .highlight {
   background: rgba(255, 255, 255, 0.8);
   -webkit-box-shadow: 0 0 4px #cccccc;
   -moz-box-shadow: 0 0 4px #cccccc;
   box-shadow: 0 0 4px #cccccc;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   padding: 20px;
 }
-/* line 98, ../sass/_core.scss */
+/* line 110, ../sass/_core.sass */
 .highlight h1, .highlight h2 {
   font-size: 48px;
 }
-/* line 101, ../sass/_core.scss */
+/* line 112, ../sass/_core.sass */
 .highlight h2 {
   font-size: 30px;
 }
 
-/* line 106, ../sass/_core.scss */
+/* line 115, ../sass/_core.sass */
 .deadline {
   color: firebrick;
   text-align: center;
+}
+
+/* line 120, ../sass/_core.sass */
+table {
+  width: 100%;
+  font-size: 18px;
+}
+/* line 123, ../sass/_core.sass */
+table th {
+  font-weight: bold;
+  border-bottom: 1px solid #009ddc;
+}
+/* line 126, ../sass/_core.sass */
+table tr:nth-child(2n+1) {
+  background-color: #dcf5ff;
+}
+/* line 128, ../sass/_core.sass */
+table tr:first-child {
+  background-color: transparent;
 }
 
 /* line 1, ../sass/_home.sass */

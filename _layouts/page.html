@@ -11,17 +11,10 @@ layout: default
     {{ content }}
   </div>
   <div class="page-sidebar">
-    {{ sidebar_content }}
-    {% if sidebar_content %}
-     
+    {% if page.sidebar %}
+      {% include {{ page.sidebar }} %}
     {% else %}
-      <div class="twitter">
-      <h1>
-      The Latest
-      <br><img src="/images/twitter-divider.png">
-      </h1>
-      </div>
-
+      {% include sidebar/twitter.html %}
     {% endif %}
   </div>
 </div>
