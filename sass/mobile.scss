@@ -4,81 +4,21 @@
 
 @import "compass/reset";
 @import "core";
+@import "home";
 @import "layout";
 
 header {
-	h1, h2 {
-		font-size: .8em;
-	}
-	.locations, .location, img.logo {
+	img.logo {
 		float: none;
-		display: block;
 		max-width: 100%;
 	}
-}
-.content {
-	p {
-		padding: 8px;
+	.location {
+		h2 {
+			font-size: 16px
+		}
 	}
 }
-.coming-soon
-{
-	margin-top:20px;
-	text-align: center;
-	width: 100%;
 
-	em
-	{
-		background:#009ddc;
-		border-radius:100px;
-		color:#fff;
-		display:block;
-		font-size:14px;
-		line-height:20px;
-		margin:0 auto;
-		max-width:350px;
-		padding:10px 20px;
-	}
-}
-.footer
-{
-	background:#ddd;
-	border-top:4px solid #ccc;
-	margin-top:20px;
-	width:100%;
-}
-.address-wrapper
-{
-	border-bottom:2px solid #ccc;
-}
-.address
-{
-	padding:10px;
-}
-.twitter-link-wrapper
-{
-	border-bottom:2px solid #ccc;
-	padding:10px;
-	text-align:center;
-
-	a, a:visited, a:hover
-	{
-		font-size:30px;
-		line-height:36px;
-		text-decoration:none;
-	}
-}
-.twitter-timeline-wrapper
-{
-	margin:10px auto;
-	max-width:500px;
-}
-/*  Campus styles */
-.campus-masthead h1 {
-	top: 0px;
-	left: 4px;
-	font-size: 28px
-}
 
 footer {
 	section {
@@ -118,5 +58,4 @@ footer {
 	iframe {
 		display: none;
 	}
-
 }

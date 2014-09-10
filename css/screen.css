@@ -403,7 +403,7 @@ footer section i.fa {
 }
 /* line 9, ../sass/_home.sass */
 .jumbotron .highlight {
-  height: 180px;
+  min-height: 180px;
   margin: 100px auto;
   max-width: 80%;
   position: relative;
