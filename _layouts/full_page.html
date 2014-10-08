@@ -1,7 +1,13 @@
 ---
 layout: default
 ---
-<div class="jumbotron" style="background-image: url('{{page.jumbotron}}')"></div>
+<div class="jumbotron" style="background-image: url('{{page.jumbotron}}')">
+  {% if page.credit %}
+    <div class="credit">
+      Photo Credit: {{page.credit}}
+    </div>
+  {% endif %}
+</div>
 <div class="wrap page">
   <div class="highlight full">
     <h1 class="page-title">

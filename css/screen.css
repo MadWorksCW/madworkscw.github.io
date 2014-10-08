@@ -426,10 +426,19 @@ footer section i.fa {
   background-repeat: no-repeat;
   height: 440px;
   background-attachment: fixed;
+  position: relative;
   overflow: hidden;
   *zoom: 1;
 }
 /* line 9, ../sass/_home.sass */
+.jumbotron .credit {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 4px;
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+}
+/* line 17, ../sass/_home.sass */
 .jumbotron .highlight {
   min-height: 180px;
   margin: 100px auto;
@@ -438,12 +447,12 @@ footer section i.fa {
   text-align: center;
   width: 680px;
 }
-/* line 16, ../sass/_home.sass */
+/* line 24, ../sass/_home.sass */
 .jumbotron .highlight h3 {
   margin-top: 8px;
   font-size: 30px;
 }
-/* line 19, ../sass/_home.sass */
+/* line 27, ../sass/_home.sass */
 .jumbotron .highlight a.action-button {
   font-size: 20px;
   display: block;
