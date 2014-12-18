@@ -31,7 +31,7 @@
     <!-- <h2 class="deadline">APPLICATIONS FOR SPRING 2015 ARE NOW OPEN</h1> -->
   </div>
   <div class="tab" data-tab="apply" >
-    <h2 class="deadline">APPLICATIONS FOR SPRING 2015 ARE NOW OPEN</h2>
+    <h2 class="deadline">APPLICATIONS FOR SPRING 2015 ARE WILL OPEN SOON</h2>
     <!--
     <div class="application-link">
       <a href="http://madworks-accelerator.herokuapp.com/">Click here to apply online now</a>
@@ -222,11 +222,26 @@
 </div>
 
 <script>
-$('ul.sub-nav-tabs').on('click', 'a', function(ev) {
-  $li = $(ev.target).closest('li');
-  $('ul.sub-nav-tabs li, .tab').removeClass('active');
-  $li.addClass("active");
-  var tab = $li.data('tab')
-  $('.content').find(".tab[data-tab=" + tab + "]").addClass("active")
+$(document).ready( function() {
+  function activateTab(tab) {
+    $li = $("li[data-tab=" + tab + "]")
+    $('ul.sub-nav-tabs li, .tab').removeClass('active');
+    $li.addClass("active");
+    $('.content').find(".tab[data-tab=" + tab + "]").addClass("active")
+  }
+
+  function hashChange() {
+    if (location.hash) {
+      activateTab(location.hash.substring(1));
+    }
+  }
+
+  window.addEventListener("hashchange", hashChange, false);
+  hashChange();
+  $('ul.sub-nav-tabs').on('click', 'a', function(ev) {
+    $li = $(ev.target).closest('li');
+    var tab = $li.data('tab')
+    location.hash = tab;
+  });
 });
 </script>
